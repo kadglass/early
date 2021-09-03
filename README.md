@@ -1,2 +1,2 @@
 # early
-Copies of the mist recent files on NERSC and BlueHive
+Copies of the most recent files on NERSC and BlueHive
