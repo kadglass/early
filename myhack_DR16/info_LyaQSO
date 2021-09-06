@@ -1,0 +1,128 @@
+start job
+compute LyaQSO
+
+picca_xcf.py --in-dir /global/homes/i/ineslie/myhack_DR16//Delta_LYA/Delta/ --drq /global/homes/i/ineslie/myhack_DR16//Catalogs/DR16Q_S82.fits --out /global/homes/i/ineslie/myhack_DR16//Correlations/xcf_z_0_10.fits.gz --z-evol-obj 1.44  --fid-Om 0.314569514863487 --fid-Or 7.97505418919554e-5 --nside 16
+Reading catalog from  /global/homes/i/ineslie/myhack_DR16//Catalogs/DR16Q_S82.fits
+
+ start                 : nb object in cat = 9139
+ and THING_ID > 0       : nb object in cat = 8999
+ and ra != dec         : nb object in cat = 8999
+ and ra != 0.          : nb object in cat = 8999
+ and dec != 0.         : nb object in cat = 8999
+ and z >= 0        : nb object in cat = 8999
+ and z < 10         : nb object in cat = 8999
+Reading objects 
+0 of 48
+1 of 48
+2 of 48
+3 of 48
+4 of 48
+5 of 48
+6 of 48
+7 of 48
+8 of 48
+9 of 48
+10 of 48
+11 of 48
+12 of 48
+13 of 48
+14 of 48
+15 of 48
+16 of 48
+17 of 48
+18 of 48
+19 of 48
+20 of 48
+21 of 48
+22 of 48
+23 of 48
+24 of 48
+25 of 48
+26 of 48
+27 of 48
+28 of 48
+29 of 48
+30 of 48
+31 of 48
+32 of 48
+33 of 48
+34 of 48
+35 of 48
+36 of 48
+37 of 48
+38 of 48
+39 of 48
+40 of 48
+41 of 48
+42 of 48
+43 of 48
+44 of 48
+45 of 48
+46 of 48
+47 of 48
+read 0 of 14 0
+read 1 of 14 1601
+read 2 of 14 3360
+read 3 of 14 3433
+read 4 of 14 3510
+read 5 of 14 3541
+read 6 of 14 3594
+read 7 of 14 3662
+read 8 of 14 3737
+read 9 of 14 3765
+read 10 of 14 3819
+read 11 of 14 5781
+read 12 of 14 7784
+
+
+Time spent in picca_xcf = 0.1899446964263916 minutes
+
+
+
+picca_xdmat.py --in-dir /global/homes/i/ineslie/myhack_DR16//Delta_LYA/Delta/ --drq /global/homes/i/ineslie/myhack_DR16//Catalogs/DR16Q_S82.fits --out /global/homes/i/ineslie/myhack_DR16//Correlations/xdmat_z_0_10.fits.gz --z-evol-obj 1.44  --fid-Om 0.314569514863487 --fid-Or 7.97505418919554e-5 --nside 16 --rej 0.99
+nproc 32
+read 0 of 14 0
+read 1 of 14 1601
+read 2 of 14 3360
+read 3 of 14 3433
+read 4 of 14 3510
+read 5 of 14 3541
+read 6 of 14 3594
+read 7 of 14 3662
+read 8 of 14 3737
+read 9 of 14 3765
+read 10 of 14 3819
+read 11 of 14 5781
+read 12 of 14 7784
+
+
+Time spent in picca_xdmat = 0.1710515817006429 minutes
+
+
+
+picca_export.py --data /global/homes/i/ineslie/myhack_DR16//Correlations/xcf_z_0_10.fits.gz --dmat /global/homes/i/ineslie/myhack_DR16//Correlations/xdmat_z_0_10.fits.gz --out /global/homes/i/ineslie/myhack_DR16//Correlations/xcf_z_0_10-exp.fits.gz
+
+picca_metal_xdmat.py --in-dir /global/homes/i/ineslie/myhack_DR16//Delta_LYA/Delta/ --drq /global/homes/i/ineslie/myhack_DR16//Catalogs/DR16Q_S82.fits --out /global/homes/i/ineslie/myhack_DR16//Correlations/metal_xdmat_z_0_10.fits.gz --z-evol-obj 1.44  --fid-Om 0.314569514863487 --fid-Or 7.97505418919554e-5 --nside 16 --rej 0.999 --abs-igm CIV\(eff\) SiII\(1260\) SiIII\(1207\) SiII\(1193\) SiII\(1190\) 
+read 0 of 14 0
+read 1 of 14 1601
+read 2 of 14 3360
+read 3 of 14 3433
+read 4 of 14 3510
+read 5 of 14 3541
+read 6 of 14 3594
+read 7 of 14 3662
+read 8 of 14 3737
+read 9 of 14 3765
+read 10 of 14 3819
+read 11 of 14 5781
+read 12 of 14 7784
+
+
+Time spent in picca_metal_xdmat = 0.17255718310674031 minutes
+
+
+
+
+
+
+

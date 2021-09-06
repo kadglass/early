@@ -1,0 +1,291 @@
+start job
+compute LyaLya
+
+picca_cf.py --in-dir /global/homes/i/ineslie/myhack//Delta_LYA/Delta/ --out /global/homes/i/ineslie/myhack//Correlations/cf_z_0_10.fits.gz --z-cut-min 0 --z-cut-max 10 --remove-same-half-plate-close-pairs --fid-Om 0.314569514863487 --fid-Or 7.97505418919554e-5 --nside 16
+read 0 of 12 0
+read 1 of 12 1269
+read 2 of 12 2560
+read 3 of 12 2638
+read 4 of 12 2718
+read 5 of 12 2750
+read 6 of 12 2788
+read 7 of 12 2858
+read 8 of 12 2935
+read 9 of 12 2962
+read 10 of 12 3006
+read 11 of 12 5034
+
+
+
+done, npix = 48
+picca_cf.py - Time reading data: 0.102 minutes
+computing xi: 0.0%
+computing xi: 14.04%
+computing xi: 28.07%
+computing xi: 42.11%
+computing xi: 56.15%
+computing xi: 70.19%
+computing xi: 84.22%
+computing xi: 98.26%
+picca_cf.py - Time computing correlation function: 0.713 minutes
+picca_cf.py - Time total : 0.817 minutes
+
+
+Time spent in picca_cf = 0.9230976382891337 minutes
+
+
+
+picca_dmat.py --in-dir /global/homes/i/ineslie/myhack//Delta_LYA/Delta/ --out /global/homes/i/ineslie/myhack//Correlations/dmat_z_0_10.fits.gz --remove-same-half-plate-close-pairs --z-cut-min 0 --z-cut-max 10 --fid-Om 0.314569514863487 --fid-Or 7.97505418919554e-5 --nside 16 --rej 0.99
+nproc 32
+read 0 of 12 0
+read 1 of 12 1269
+read 2 of 12 2560
+read 3 of 12 2638
+read 4 of 12 2718
+read 5 of 12 2750
+read 6 of 12 2788
+read 7 of 12 2858
+read 8 of 12 2935
+read 9 of 12 2962
+read 10 of 12 3006
+read 11 of 12 5034
+
+
+
+done, npix = 48
+picca_dmat.py - Time reading data: 0.104 minutes
+computing xi: 0.0%
+computing xi: 14.04%
+computing xi: 28.07%
+computing xi: 42.11%
+computing xi: 56.15%
+computing xi: 70.19%
+computing xi: 84.22%
+computing xi: 98.26%
+picca_dmat.py - Time computing distortion matrix: 0.697 minutes
+picca_dmat.py - Time total : 0.825 minutes
+
+
+Time spent in picca_dmat = 0.9726958990097045 minutes
+
+
+
+picca_export.py --data /global/homes/i/ineslie/myhack//Correlations/cf_z_0_10.fits.gz --dmat /global/homes/i/ineslie/myhack//Correlations/dmat_z_0_10.fits.gz --out /global/homes/i/ineslie/myhack//Correlations/cf_z_0_10-exp.fits.gz
+INFO: The covariance will be smoothed
+Computing cov...
+smoothing 0smoothing 1smoothing 2smoothing 3smoothing 4smoothing 5smoothing 6smoothing 7smoothing 8smoothing 9smoothing 10smoothing 11smoothing 12smoothing 13smoothing 14smoothing 15smoothing 16smoothing 17smoothing 18smoothing 19smoothing 20smoothing 21smoothing 22smoothing 23smoothing 24smoothing 25smoothing 26smoothing 27smoothing 28smoothing 29smoothing 30smoothing 31smoothing 32smoothing 33smoothing 34smoothing 35smoothing 36smoothing 37smoothing 38smoothing 39smoothing 40smoothing 41smoothing 42smoothing 43smoothing 44smoothing 45smoothing 46smoothing 47smoothing 48smoothing 49smoothing 50smoothing 51smoothing 52smoothing 53smoothing 54smoothing 55smoothing 56smoothing 57smoothing 58smoothing 59smoothing 60smoothing 61smoothing 62smoothing 63smoothing 64smoothing 65smoothing 66smoothing 67smoothing 68smoothing 69smoothing 70smoothing 71smoothing 72smoothing 73smoothing 74smoothing 75smoothing 76smoothing 77smoothing 78smoothing 79smoothing 80smoothing 81smoothing 82smoothing 83smoothing 84smoothing 85smoothing 86smoothing 87smoothing 88smoothing 89smoothing 90smoothing 91smoothing 92smoothing 93smoothing 94smoothing 95smoothing 96smoothing 97smoothing 98smoothing 99smoothing 100smoothing 101smoothing 102smoothing 103smoothing 104smoothing 105smoothing 106smoothing 107smoothing 108smoothing 109smoothing 110smoothing 111smoothing 112smoothing 113smoothing 114smoothing 115smoothing 116smoothing 117smoothing 118smoothing 119smoothing 120smoothing 121smoothing 122smoothing 123smoothing 124smoothing 125smoothing 126smoothing 127smoothing 128smoothing 129smoothing 130smoothing 131smoothing 132smoothing 133smoothing 134smoothing 135smoothing 136smoothing 137smoothing 138smoothing 139smoothing 140smoothing 141smoothing 142smoothing 143smoothing 144smoothing 145smoothing 146smoothing 147smoothing 148smoothing 149smoothing 150smoothing 151smoothing 152smoothing 153smoothing 154smoothing 155smoothing 156smoothing 157smoothing 158smoothing 159smoothing 160smoothing 161smoothing 162smoothing 163smoothing 164smoothing 165smoothing 166smoothing 167smoothing 168smoothing 169smoothing 170smoothing 171smoothing 172smoothing 173smoothing 174smoothing 175smoothing 176smoothing 177smoothing 178smoothing 179smoothing 180smoothing 181smoothing 182smoothing 183smoothing 184smoothing 185smoothing 186smoothing 187smoothing 188smoothing 189smoothing 190smoothing 191smoothing 192smoothing 193smoothing 194smoothing 195smoothing 196smoothing 197smoothing 198smoothing 199smoothing 200smoothing 201smoothing 202smoothing 203smoothing 204smoothing 205smoothing 206smoothing 207smoothing 208smoothing 209smoothing 210smoothing 211smoothing 212smoothing 213smoothing 214smoothing 215smoothing 216smoothing 217smoothing 218smoothing 219smoothing 220smoothing 221smoothing 222smoothing 223smoothing 224smoothing 225smoothing 226smoothing 227smoothing 228smoothing 229smoothing 230smoothing 231smoothing 232smoothing 233smoothing 234smoothing 235smoothing 236smoothing 237smoothing 238smoothing 239smoothing 240smoothing 241smoothing 242smoothing 243smoothing 244smoothing 245smoothing 246smoothing 247smoothing 248smoothing 249smoothing 250smoothing 251smoothing 252smoothing 253smoothing 254smoothing 255smoothing 256smoothing 257smoothing 258smoothing 259smoothing 260smoothing 261smoothing 262smoothing 263smoothing 264smoothing 265smoothing 266smoothing 267smoothing 268smoothing 269smoothing 270smoothing 271smoothing 272smoothing 273smoothing 274smoothing 275smoothing 276smoothing 277smoothing 278smoothing 279smoothing 280smoothing 281smoothing 282smoothing 283smoothing 284smoothing 285smoothing 286smoothing 287smoothing 288smoothing 289smoothing 290smoothing 291smoothing 292smoothing 293smoothing 294smoothing 295smoothing 296smoothing 297smoothing 298smoothing 299smoothing 300smoothing 301smoothing 302smoothing 303smoothing 304smoothing 305smoothing 306smoothing 307smoothing 308smoothing 309smoothing 310smoothing 311smoothing 312smoothing 313smoothing 314smoothing 315smoothing 316smoothing 317smoothing 318smoothing 319smoothing 320smoothing 321smoothing 322smoothing 323smoothing 324smoothing 325smoothing 326smoothing 327smoothing 328smoothing 329smoothing 330smoothing 331smoothing 332smoothing 333smoothing 334smoothing 335smoothing 336smoothing 337smoothing 338smoothing 339smoothing 340smoothing 341smoothing 342smoothing 343smoothing 344smoothing 345smoothing 346smoothing 347smoothing 348smoothing 349smoothing 350smoothing 351smoothing 352smoothing 353smoothing 354smoothing 355smoothing 356smoothing 357smoothing 358smoothing 359smoothing 360smoothing 361smoothing 362smoothing 363smoothing 364smoothing 365smoothing 366smoothing 367smoothing 368smoothing 369smoothing 370smoothing 371smoothing 372smoothing 373smoothing 374smoothing 375smoothing 376smoothing 377smoothing 378smoothing 379smoothing 380smoothing 381smoothing 382smoothing 383smoothing 384smoothing 385smoothing 386smoothing 387smoothing 388smoothing 389smoothing 390smoothing 391smoothing 392smoothing 393smoothing 394smoothing 395smoothing 396smoothing 397smoothing 398smoothing 399smoothing 400smoothing 401smoothing 402smoothing 403smoothing 404smoothing 405smoothing 406smoothing 407smoothing 408smoothing 409smoothing 410smoothing 411smoothing 412smoothing 413smoothing 414smoothing 415smoothing 416smoothing 417smoothing 418smoothing 419smoothing 420smoothing 421smoothing 422smoothing 423smoothing 424smoothing 425smoothing 426smoothing 427smoothing 428smoothing 429smoothing 430smoothing 431smoothing 432smoothing 433smoothing 434smoothing 435smoothing 436smoothing 437smoothing 438smoothing 439smoothing 440smoothing 441smoothing 442smoothing 443smoothing 444smoothing 445smoothing 446smoothing 447smoothing 448smoothing 449smoothing 450smoothing 451smoothing 452smoothing 453smoothing 454smoothing 455smoothing 456smoothing 457smoothing 458smoothing 459smoothing 460smoothing 461smoothing 462smoothing 463smoothing 464smoothing 465smoothing 466smoothing 467smoothing 468smoothing 469smoothing 470smoothing 471smoothing 472smoothing 473smoothing 474smoothing 475smoothing 476smoothing 477smoothing 478smoothing 479smoothing 480smoothing 481smoothing 482smoothing 483smoothing 484smoothing 485smoothing 486smoothing 487smoothing 488smoothing 489smoothing 490smoothing 491smoothing 492smoothing 493smoothing 494smoothing 495smoothing 496smoothing 497smoothing 498smoothing 499smoothing 500smoothing 501smoothing 502smoothing 503smoothing 504smoothing 505smoothing 506smoothing 507smoothing 508smoothing 509smoothing 510smoothing 511smoothing 512smoothing 513smoothing 514smoothing 515smoothing 516smoothing 517smoothing 518smoothing 519smoothing 520smoothing 521smoothing 522smoothing 523smoothing 524smoothing 525smoothing 526smoothing 527smoothing 528smoothing 529smoothing 530smoothing 531smoothing 532smoothing 533smoothing 534smoothing 535smoothing 536smoothing 537smoothing 538smoothing 539smoothing 540smoothing 541smoothing 542smoothing 543smoothing 544smoothing 545smoothing 546smoothing 547smoothing 548smoothing 549smoothing 550smoothing 551smoothing 552smoothing 553smoothing 554smoothing 555smoothing 556smoothing 557smoothing 558smoothing 559smoothing 560smoothing 561smoothing 562smoothing 563smoothing 564smoothing 565smoothing 566smoothing 567smoothing 568smoothing 569smoothing 570smoothing 571smoothing 572smoothing 573smoothing 574smoothing 575smoothing 576smoothing 577smoothing 578smoothing 579smoothing 580smoothing 581smoothing 582smoothing 583smoothing 584smoothing 585smoothing 586smoothing 587smoothing 588smoothing 589smoothing 590smoothing 591smoothing 592smoothing 593smoothing 594smoothing 595smoothing 596smoothing 597smoothing 598smoothing 599smoothing 600smoothing 601smoothing 602smoothing 603smoothing 604smoothing 605smoothing 606smoothing 607smoothing 608smoothing 609smoothing 610smoothing 611smoothing 612smoothing 613smoothing 614smoothing 615smoothing 616smoothing 617smoothing 618smoothing 619smoothing 620smoothing 621smoothing 622smoothing 623smoothing 624smoothing 625smoothing 626smoothing 627smoothing 628smoothing 629smoothing 630smoothing 631smoothing 632smoothing 633smoothing 634smoothing 635smoothing 636smoothing 637smoothing 638smoothing 639smoothing 640smoothing 641smoothing 642smoothing 643smoothing 644smoothing 645smoothing 646smoothing 647smoothing 648smoothing 649smoothing 650smoothing 651smoothing 652smoothing 653smoothing 654smoothing 655smoothing 656smoothing 657smoothing 658smoothing 659smoothing 660smoothing 661smoothing 662smoothing 663smoothing 664smoothing 665smoothing 666smoothing 667smoothing 668smoothing 669smoothing 670smoothing 671smoothing 672smoothing 673smoothing 674smoothing 675smoothing 676smoothing 677smoothing 678smoothing 679smoothing 680smoothing 681smoothing 682smoothing 683smoothing 684smoothing 685smoothing 686smoothing 687smoothing 688smoothing 689smoothing 690smoothing 691smoothing 692smoothing 693smoothing 694smoothing 695smoothing 696smoothing 697smoothing 698smoothing 699smoothing 700smoothing 701smoothing 702smoothing 703smoothing 704smoothing 705smoothing 706smoothing 707smoothing 708smoothing 709smoothing 710smoothing 711smoothing 712smoothing 713smoothing 714smoothing 715smoothing 716smoothing 717smoothing 718smoothing 719smoothing 720smoothing 721smoothing 722smoothing 723smoothing 724smoothing 725smoothing 726smoothing 727smoothing 728smoothing 729smoothing 730smoothing 731smoothing 732smoothing 733smoothing 734smoothing 735smoothing 736smoothing 737smoothing 738smoothing 739smoothing 740smoothing 741smoothing 742smoothing 743smoothing 744smoothing 745smoothing 746smoothing 747smoothing 748smoothing 749smoothing 750smoothing 751smoothing 752smoothing 753smoothing 754smoothing 755smoothing 756smoothing 757smoothing 758smoothing 759smoothing 760smoothing 761smoothing 762smoothing 763smoothing 764smoothing 765smoothing 766smoothing 767smoothing 768smoothing 769smoothing 770smoothing 771smoothing 772smoothing 773smoothing 774smoothing 775smoothing 776smoothing 777smoothing 778smoothing 779smoothing 780smoothing 781smoothing 782smoothing 783smoothing 784smoothing 785smoothing 786smoothing 787smoothing 788smoothing 789smoothing 790smoothing 791smoothing 792smoothing 793smoothing 794smoothing 795smoothing 796smoothing 797smoothing 798smoothing 799smoothing 800smoothing 801smoothing 802smoothing 803smoothing 804smoothing 805smoothing 806smoothing 807smoothing 808smoothing 809smoothing 810smoothing 811smoothing 812smoothing 813smoothing 814smoothing 815smoothing 816smoothing 817smoothing 818smoothing 819smoothing 820smoothing 821smoothing 822smoothing 823smoothing 824smoothing 825smoothing 826smoothing 827smoothing 828smoothing 829smoothing 830smoothing 831smoothing 832smoothing 833smoothing 834smoothing 835smoothing 836smoothing 837smoothing 838smoothing 839smoothing 840smoothing 841smoothing 842smoothing 843smoothing 844smoothing 845smoothing 846smoothing 847smoothing 848smoothing 849smoothing 850smoothing 851smoothing 852smoothing 853smoothing 854smoothing 855smoothing 856smoothing 857smoothing 858smoothing 859smoothing 860smoothing 861smoothing 862smoothing 863smoothing 864smoothing 865smoothing 866smoothing 867smoothing 868smoothing 869smoothing 870smoothing 871smoothing 872smoothing 873smoothing 874smoothing 875smoothing 876smoothing 877smoothing 878smoothing 879smoothing 880smoothing 881smoothing 882smoothing 883smoothing 884smoothing 885smoothing 886smoothing 887smoothing 888smoothing 889smoothing 890smoothing 891smoothing 892smoothing 893smoothing 894smoothing 895smoothing 896smoothing 897smoothing 898smoothing 899smoothing 900smoothing 901smoothing 902smoothing 903smoothing 904smoothing 905smoothing 906smoothing 907smoothing 908smoothing 909smoothing 910smoothing 911smoothing 912smoothing 913smoothing 914smoothing 915smoothing 916smoothing 917smoothing 918smoothing 919smoothing 920smoothing 921smoothing 922smoothing 923smoothing 924smoothing 925smoothing 926smoothing 927smoothing 928smoothing 929smoothing 930smoothing 931smoothing 932smoothing 933smoothing 934smoothing 935smoothing 936smoothing 937smoothing 938smoothing 939smoothing 940smoothing 941smoothing 942smoothing 943smoothing 944smoothing 945smoothing 946smoothing 947smoothing 948smoothing 949smoothing 950smoothing 951smoothing 952smoothing 953smoothing 954smoothing 955smoothing 956smoothing 957smoothing 958smoothing 959smoothing 960smoothing 961smoothing 962smoothing 963smoothing 964smoothing 965smoothing 966smoothing 967smoothing 968smoothing 969smoothing 970smoothing 971smoothing 972smoothing 973smoothing 974smoothing 975smoothing 976smoothing 977smoothing 978smoothing 979smoothing 980smoothing 981smoothing 982smoothing 983smoothing 984smoothing 985smoothing 986smoothing 987smoothing 988smoothing 989smoothing 990smoothing 991smoothing 992smoothing 993smoothing 994smoothing 995smoothing 996smoothing 997smoothing 998smoothing 999smoothing 1000smoothing 1001smoothing 1002smoothing 1003smoothing 1004smoothing 1005smoothing 1006smoothing 1007smoothing 1008smoothing 1009smoothing 1010smoothing 1011smoothing 1012smoothing 1013smoothing 1014smoothing 1015smoothing 1016smoothing 1017smoothing 1018smoothing 1019smoothing 1020smoothing 1021smoothing 1022smoothing 1023smoothing 1024smoothing 1025smoothing 1026smoothing 1027smoothing 1028smoothing 1029smoothing 1030smoothing 1031smoothing 1032smoothing 1033smoothing 1034smoothing 1035smoothing 1036smoothing 1037smoothing 1038smoothing 1039smoothing 1040smoothing 1041smoothing 1042smoothing 1043smoothing 1044smoothing 1045smoothing 1046smoothing 1047smoothing 1048smoothing 1049smoothing 1050smoothing 1051smoothing 1052smoothing 1053smoothing 1054smoothing 1055smoothing 1056smoothing 1057smoothing 1058smoothing 1059smoothing 1060smoothing 1061smoothing 1062smoothing 1063smoothing 1064smoothing 1065smoothing 1066smoothing 1067smoothing 1068smoothing 1069smoothing 1070smoothing 1071smoothing 1072smoothing 1073smoothing 1074smoothing 1075smoothing 1076smoothing 1077smoothing 1078smoothing 1079smoothing 1080smoothing 1081smoothing 1082smoothing 1083smoothing 1084smoothing 1085smoothing 1086smoothing 1087smoothing 1088smoothing 1089smoothing 1090smoothing 1091smoothing 1092smoothing 1093smoothing 1094smoothing 1095smoothing 1096smoothing 1097smoothing 1098smoothing 1099smoothing 1100smoothing 1101smoothing 1102smoothing 1103smoothing 1104smoothing 1105smoothing 1106smoothing 1107smoothing 1108smoothing 1109smoothing 1110smoothing 1111smoothing 1112smoothing 1113smoothing 1114smoothing 1115smoothing 1116smoothing 1117smoothing 1118smoothing 1119smoothing 1120smoothing 1121smoothing 1122smoothing 1123smoothing 1124smoothing 1125smoothing 1126smoothing 1127smoothing 1128smoothing 1129smoothing 1130smoothing 1131smoothing 1132smoothing 1133smoothing 1134smoothing 1135smoothing 1136smoothing 1137smoothing 1138smoothing 1139smoothing 1140smoothing 1141smoothing 1142smoothing 1143smoothing 1144smoothing 1145smoothing 1146smoothing 1147smoothing 1148smoothing 1149smoothing 1150smoothing 1151smoothing 1152smoothing 1153smoothing 1154smoothing 1155smoothing 1156smoothing 1157smoothing 1158smoothing 1159smoothing 1160smoothing 1161smoothing 1162smoothing 1163smoothing 1164smoothing 1165smoothing 1166smoothing 1167smoothing 1168smoothing 1169smoothing 1170smoothing 1171smoothing 1172smoothing 1173smoothing 1174smoothing 1175smoothing 1176smoothing 1177smoothing 1178smoothing 1179smoothing 1180smoothing 1181smoothing 1182smoothing 1183smoothing 1184smoothing 1185smoothing 1186smoothing 1187smoothing 1188smoothing 1189smoothing 1190smoothing 1191smoothing 1192smoothing 1193smoothing 1194smoothing 1195smoothing 1196smoothing 1197smoothing 1198smoothing 1199smoothing 1200smoothing 1201smoothing 1202smoothing 1203smoothing 1204smoothing 1205smoothing 1206smoothing 1207smoothing 1208smoothing 1209smoothing 1210smoothing 1211smoothing 1212smoothing 1213smoothing 1214smoothing 1215smoothing 1216smoothing 1217smoothing 1218smoothing 1219smoothing 1220smoothing 1221smoothing 1222smoothing 1223smoothing 1224smoothing 1225smoothing 1226smoothing 1227smoothing 1228smoothing 1229smoothing 1230smoothing 1231smoothing 1232smoothing 1233smoothing 1234smoothing 1235smoothing 1236smoothing 1237smoothing 1238smoothing 1239smoothing 1240smoothing 1241smoothing 1242smoothing 1243smoothing 1244smoothing 1245smoothing 1246smoothing 1247smoothing 1248smoothing 1249smoothing 1250smoothing 1251smoothing 1252smoothing 1253smoothing 1254smoothing 1255smoothing 1256smoothing 1257smoothing 1258smoothing 1259smoothing 1260smoothing 1261smoothing 1262smoothing 1263smoothing 1264smoothing 1265smoothing 1266smoothing 1267smoothing 1268smoothing 1269smoothing 1270smoothing 1271smoothing 1272smoothing 1273smoothing 1274smoothing 1275smoothing 1276smoothing 1277smoothing 1278smoothing 1279smoothing 1280smoothing 1281smoothing 1282smoothing 1283smoothing 1284smoothing 1285smoothing 1286smoothing 1287smoothing 1288smoothing 1289smoothing 1290smoothing 1291smoothing 1292smoothing 1293smoothing 1294smoothing 1295smoothing 1296smoothing 1297smoothing 1298smoothing 1299smoothing 1300smoothing 1301smoothing 1302smoothing 1303smoothing 1304smoothing 1305smoothing 1306smoothing 1307smoothing 1308smoothing 1309smoothing 1310smoothing 1311smoothing 1312smoothing 1313smoothing 1314smoothing 1315smoothing 1316smoothing 1317smoothing 1318smoothing 1319smoothing 1320smoothing 1321smoothing 1322smoothing 1323smoothing 1324smoothing 1325smoothing 1326smoothing 1327smoothing 1328smoothing 1329smoothing 1330smoothing 1331smoothing 1332smoothing 1333smoothing 1334smoothing 1335smoothing 1336smoothing 1337smoothing 1338smoothing 1339smoothing 1340smoothing 1341smoothing 1342smoothing 1343smoothing 1344smoothing 1345smoothing 1346smoothing 1347smoothing 1348smoothing 1349smoothing 1350smoothing 1351smoothing 1352smoothing 1353smoothing 1354smoothing 1355smoothing 1356smoothing 1357smoothing 1358smoothing 1359smoothing 1360smoothing 1361smoothing 1362smoothing 1363smoothing 1364smoothing 1365smoothing 1366smoothing 1367smoothing 1368smoothing 1369smoothing 1370smoothing 1371smoothing 1372smoothing 1373smoothing 1374smoothing 1375smoothing 1376smoothing 1377smoothing 1378smoothing 1379smoothing 1380smoothing 1381smoothing 1382smoothing 1383smoothing 1384smoothing 1385smoothing 1386smoothing 1387smoothing 1388smoothing 1389smoothing 1390smoothing 1391smoothing 1392smoothing 1393smoothing 1394smoothing 1395smoothing 1396smoothing 1397smoothing 1398smoothing 1399smoothing 1400smoothing 1401smoothing 1402smoothing 1403smoothing 1404smoothing 1405smoothing 1406smoothing 1407smoothing 1408smoothing 1409smoothing 1410smoothing 1411smoothing 1412smoothing 1413smoothing 1414smoothing 1415smoothing 1416smoothing 1417smoothing 1418smoothing 1419smoothing 1420smoothing 1421smoothing 1422smoothing 1423smoothing 1424smoothing 1425smoothing 1426smoothing 1427smoothing 1428smoothing 1429smoothing 1430smoothing 1431smoothing 1432smoothing 1433smoothing 1434smoothing 1435smoothing 1436smoothing 1437smoothing 1438smoothing 1439smoothing 1440smoothing 1441smoothing 1442smoothing 1443smoothing 1444smoothing 1445smoothing 1446smoothing 1447smoothing 1448smoothing 1449smoothing 1450smoothing 1451smoothing 1452smoothing 1453smoothing 1454smoothing 1455smoothing 1456smoothing 1457smoothing 1458smoothing 1459smoothing 1460smoothing 1461smoothing 1462smoothing 1463smoothing 1464smoothing 1465smoothing 1466smoothing 1467smoothing 1468smoothing 1469smoothing 1470smoothing 1471smoothing 1472smoothing 1473smoothing 1474smoothing 1475smoothing 1476smoothing 1477smoothing 1478smoothing 1479smoothing 1480smoothing 1481smoothing 1482smoothing 1483smoothing 1484smoothing 1485smoothing 1486smoothing 1487smoothing 1488smoothing 1489smoothing 1490smoothing 1491smoothing 1492smoothing 1493smoothing 1494smoothing 1495smoothing 1496smoothing 1497smoothing 1498smoothing 1499smoothing 1500smoothing 1501smoothing 1502smoothing 1503smoothing 1504smoothing 1505smoothing 1506smoothing 1507smoothing 1508smoothing 1509smoothing 1510smoothing 1511smoothing 1512smoothing 1513smoothing 1514smoothing 1515smoothing 1516smoothing 1517smoothing 1518smoothing 1519smoothing 1520smoothing 1521smoothing 1522smoothing 1523smoothing 1524smoothing 1525smoothing 1526smoothing 1527smoothing 1528smoothing 1529smoothing 1530smoothing 1531smoothing 1532smoothing 1533smoothing 1534smoothing 1535smoothing 1536smoothing 1537smoothing 1538smoothing 1539smoothing 1540smoothing 1541smoothing 1542smoothing 1543smoothing 1544smoothing 1545smoothing 1546smoothing 1547smoothing 1548smoothing 1549smoothing 1550smoothing 1551smoothing 1552smoothing 1553smoothing 1554smoothing 1555smoothing 1556smoothing 1557smoothing 1558smoothing 1559smoothing 1560smoothing 1561smoothing 1562smoothing 1563smoothing 1564smoothing 1565smoothing 1566smoothing 1567smoothing 1568smoothing 1569smoothing 1570smoothing 1571smoothing 1572smoothing 1573smoothing 1574smoothing 1575smoothing 1576smoothing 1577smoothing 1578smoothing 1579smoothing 1580smoothing 1581smoothing 1582smoothing 1583smoothing 1584smoothing 1585smoothing 1586smoothing 1587smoothing 1588smoothing 1589smoothing 1590smoothing 1591smoothing 1592smoothing 1593smoothing 1594smoothing 1595smoothing 1596smoothing 1597smoothing 1598smoothing 1599smoothing 1600smoothing 1601smoothing 1602smoothing 1603smoothing 1604smoothing 1605smoothing 1606smoothing 1607smoothing 1608smoothing 1609smoothing 1610smoothing 1611smoothing 1612smoothing 1613smoothing 1614smoothing 1615smoothing 1616smoothing 1617smoothing 1618smoothing 1619smoothing 1620smoothing 1621smoothing 1622smoothing 1623smoothing 1624smoothing 1625smoothing 1626smoothing 1627smoothing 1628smoothing 1629smoothing 1630smoothing 1631smoothing 1632smoothing 1633smoothing 1634smoothing 1635smoothing 1636smoothing 1637smoothing 1638smoothing 1639smoothing 1640smoothing 1641smoothing 1642smoothing 1643smoothing 1644smoothing 1645smoothing 1646smoothing 1647smoothing 1648smoothing 1649smoothing 1650smoothing 1651smoothing 1652smoothing 1653smoothing 1654smoothing 1655smoothing 1656smoothing 1657smoothing 1658smoothing 1659smoothing 1660smoothing 1661smoothing 1662smoothing 1663smoothing 1664smoothing 1665smoothing 1666smoothing 1667smoothing 1668smoothing 1669smoothing 1670smoothing 1671smoothing 1672smoothing 1673smoothing 1674smoothing 1675smoothing 1676smoothing 1677smoothing 1678smoothing 1679smoothing 1680smoothing 1681smoothing 1682smoothing 1683smoothing 1684smoothing 1685smoothing 1686smoothing 1687smoothing 1688smoothing 1689smoothing 1690smoothing 1691smoothing 1692smoothing 1693smoothing 1694smoothing 1695smoothing 1696smoothing 1697smoothing 1698smoothing 1699smoothing 1700smoothing 1701smoothing 1702smoothing 1703smoothing 1704smoothing 1705smoothing 1706smoothing 1707smoothing 1708smoothing 1709smoothing 1710smoothing 1711smoothing 1712smoothing 1713smoothing 1714smoothing 1715smoothing 1716smoothing 1717smoothing 1718smoothing 1719smoothing 1720smoothing 1721smoothing 1722smoothing 1723smoothing 1724smoothing 1725smoothing 1726smoothing 1727smoothing 1728smoothing 1729smoothing 1730smoothing 1731smoothing 1732smoothing 1733smoothing 1734smoothing 1735smoothing 1736smoothing 1737smoothing 1738smoothing 1739smoothing 1740smoothing 1741smoothing 1742smoothing 1743smoothing 1744smoothing 1745smoothing 1746smoothing 1747smoothing 1748smoothing 1749smoothing 1750smoothing 1751smoothing 1752smoothing 1753smoothing 1754smoothing 1755smoothing 1756smoothing 1757smoothing 1758smoothing 1759smoothing 1760smoothing 1761smoothing 1762smoothing 1763smoothing 1764smoothing 1765smoothing 1766smoothing 1767smoothing 1768smoothing 1769smoothing 1770smoothing 1771smoothing 1772smoothing 1773smoothing 1774smoothing 1775smoothing 1776smoothing 1777smoothing 1778smoothing 1779smoothing 1780smoothing 1781smoothing 1782smoothing 1783smoothing 1784smoothing 1785smoothing 1786smoothing 1787smoothing 1788smoothing 1789smoothing 1790smoothing 1791smoothing 1792smoothing 1793smoothing 1794smoothing 1795smoothing 1796smoothing 1797smoothing 1798smoothing 1799smoothing 1800smoothing 1801smoothing 1802smoothing 1803smoothing 1804smoothing 1805smoothing 1806smoothing 1807smoothing 1808smoothing 1809smoothing 1810smoothing 1811smoothing 1812smoothing 1813smoothing 1814smoothing 1815smoothing 1816smoothing 1817smoothing 1818smoothing 1819smoothing 1820smoothing 1821smoothing 1822smoothing 1823smoothing 1824smoothing 1825smoothing 1826smoothing 1827smoothing 1828smoothing 1829smoothing 1830smoothing 1831smoothing 1832smoothing 1833smoothing 1834smoothing 1835smoothing 1836smoothing 1837smoothing 1838smoothing 1839smoothing 1840smoothing 1841smoothing 1842smoothing 1843smoothing 1844smoothing 1845smoothing 1846smoothing 1847smoothing 1848smoothing 1849smoothing 1850smoothing 1851smoothing 1852smoothing 1853smoothing 1854smoothing 1855smoothing 1856smoothing 1857smoothing 1858smoothing 1859smoothing 1860smoothing 1861smoothing 1862smoothing 1863smoothing 1864smoothing 1865smoothing 1866smoothing 1867smoothing 1868smoothing 1869smoothing 1870smoothing 1871smoothing 1872smoothing 1873smoothing 1874smoothing 1875smoothing 1876smoothing 1877smoothing 1878smoothing 1879smoothing 1880smoothing 1881smoothing 1882smoothing 1883smoothing 1884smoothing 1885smoothing 1886smoothing 1887smoothing 1888smoothing 1889smoothing 1890smoothing 1891smoothing 1892smoothing 1893smoothing 1894smoothing 1895smoothing 1896smoothing 1897smoothing 1898smoothing 1899smoothing 1900smoothing 1901smoothing 1902smoothing 1903smoothing 1904smoothing 1905smoothing 1906smoothing 1907smoothing 1908smoothing 1909smoothing 1910smoothing 1911smoothing 1912smoothing 1913smoothing 1914smoothing 1915smoothing 1916smoothing 1917smoothing 1918smoothing 1919smoothing 1920smoothing 1921smoothing 1922smoothing 1923smoothing 1924smoothing 1925smoothing 1926smoothing 1927smoothing 1928smoothing 1929smoothing 1930smoothing 1931smoothing 1932smoothing 1933smoothing 1934smoothing 1935smoothing 1936smoothing 1937smoothing 1938smoothing 1939smoothing 1940smoothing 1941smoothing 1942smoothing 1943smoothing 1944smoothing 1945smoothing 1946smoothing 1947smoothing 1948smoothing 1949smoothing 1950smoothing 1951smoothing 1952smoothing 1953smoothing 1954smoothing 1955smoothing 1956smoothing 1957smoothing 1958smoothing 1959smoothing 1960smoothing 1961smoothing 1962smoothing 1963smoothing 1964smoothing 1965smoothing 1966smoothing 1967smoothing 1968smoothing 1969smoothing 1970smoothing 1971smoothing 1972smoothing 1973smoothing 1974smoothing 1975smoothing 1976smoothing 1977smoothing 1978smoothing 1979smoothing 1980smoothing 1981smoothing 1982smoothing 1983smoothing 1984smoothing 1985smoothing 1986smoothing 1987smoothing 1988smoothing 1989smoothing 1990smoothing 1991smoothing 1992smoothing 1993smoothing 1994smoothing 1995smoothing 1996smoothing 1997smoothing 1998smoothing 1999smoothing 2000smoothing 2001smoothing 2002smoothing 2003smoothing 2004smoothing 2005smoothing 2006smoothing 2007smoothing 2008smoothing 2009smoothing 2010smoothing 2011smoothing 2012smoothing 2013smoothing 2014smoothing 2015smoothing 2016smoothing 2017smoothing 2018smoothing 2019smoothing 2020smoothing 2021smoothing 2022smoothing 2023smoothing 2024smoothing 2025smoothing 2026smoothing 2027smoothing 2028smoothing 2029smoothing 2030smoothing 2031smoothing 2032smoothing 2033smoothing 2034smoothing 2035smoothing 2036smoothing 2037smoothing 2038smoothing 2039smoothing 2040smoothing 2041smoothing 2042smoothing 2043smoothing 2044smoothing 2045smoothing 2046smoothing 2047smoothing 2048smoothing 2049smoothing 2050smoothing 2051smoothing 2052smoothing 2053smoothing 2054smoothing 2055smoothing 2056smoothing 2057smoothing 2058smoothing 2059smoothing 2060smoothing 2061smoothing 2062smoothing 2063smoothing 2064smoothing 2065smoothing 2066smoothing 2067smoothing 2068smoothing 2069smoothing 2070smoothing 2071smoothing 2072smoothing 2073smoothing 2074smoothing 2075smoothing 2076smoothing 2077smoothing 2078smoothing 2079smoothing 2080smoothing 2081smoothing 2082smoothing 2083smoothing 2084smoothing 2085smoothing 2086smoothing 2087smoothing 2088smoothing 2089smoothing 2090smoothing 2091smoothing 2092smoothing 2093smoothing 2094smoothing 2095smoothing 2096smoothing 2097smoothing 2098smoothing 2099smoothing 2100smoothing 2101smoothing 2102smoothing 2103smoothing 2104smoothing 2105smoothing 2106smoothing 2107smoothing 2108smoothing 2109smoothing 2110smoothing 2111smoothing 2112smoothing 2113smoothing 2114smoothing 2115smoothing 2116smoothing 2117smoothing 2118smoothing 2119smoothing 2120smoothing 2121smoothing 2122smoothing 2123smoothing 2124smoothing 2125smoothing 2126smoothing 2127smoothing 2128smoothing 2129smoothing 2130smoothing 2131smoothing 2132smoothing 2133smoothing 2134smoothing 2135smoothing 2136smoothing 2137smoothing 2138smoothing 2139smoothing 2140smoothing 2141smoothing 2142smoothing 2143smoothing 2144smoothing 2145smoothing 2146smoothing 2147smoothing 2148smoothing 2149smoothing 2150smoothing 2151smoothing 2152smoothing 2153smoothing 2154smoothing 2155smoothing 2156smoothing 2157smoothing 2158smoothing 2159smoothing 2160smoothing 2161smoothing 2162smoothing 2163smoothing 2164smoothing 2165smoothing 2166smoothing 2167smoothing 2168smoothing 2169smoothing 2170smoothing 2171smoothing 2172smoothing 2173smoothing 2174smoothing 2175smoothing 2176smoothing 2177smoothing 2178smoothing 2179smoothing 2180smoothing 2181smoothing 2182smoothing 2183smoothing 2184smoothing 2185smoothing 2186smoothing 2187smoothing 2188smoothing 2189smoothing 2190smoothing 2191smoothing 2192smoothing 2193smoothing 2194smoothing 2195smoothing 2196smoothing 2197smoothing 2198smoothing 2199smoothing 2200smoothing 2201smoothing 2202smoothing 2203smoothing 2204smoothing 2205smoothing 2206smoothing 2207smoothing 2208smoothing 2209smoothing 2210smoothing 2211smoothing 2212smoothing 2213smoothing 2214smoothing 2215smoothing 2216smoothing 2217smoothing 2218smoothing 2219smoothing 2220smoothing 2221smoothing 2222smoothing 2223smoothing 2224smoothing 2225smoothing 2226smoothing 2227smoothing 2228smoothing 2229smoothing 2230smoothing 2231smoothing 2232smoothing 2233smoothing 2234smoothing 2235smoothing 2236smoothing 2237smoothing 2238smoothing 2239smoothing 2240smoothing 2241smoothing 2242smoothing 2243smoothing 2244smoothing 2245smoothing 2246smoothing 2247smoothing 2248smoothing 2249smoothing 2250smoothing 2251smoothing 2252smoothing 2253smoothing 2254smoothing 2255smoothing 2256smoothing 2257smoothing 2258smoothing 2259smoothing 2260smoothing 2261smoothing 2262smoothing 2263smoothing 2264smoothing 2265smoothing 2266smoothing 2267smoothing 2268smoothing 2269smoothing 2270smoothing 2271smoothing 2272smoothing 2273smoothing 2274smoothing 2275smoothing 2276smoothing 2277smoothing 2278smoothing 2279smoothing 2280smoothing 2281smoothing 2282smoothing 2283smoothing 2284smoothing 2285smoothing 2286smoothing 2287smoothing 2288smoothing 2289smoothing 2290smoothing 2291smoothing 2292smoothing 2293smoothing 2294smoothing 2295smoothing 2296smoothing 2297smoothing 2298smoothing 2299smoothing 2300smoothing 2301smoothing 2302smoothing 2303smoothing 2304smoothing 2305smoothing 2306smoothing 2307smoothing 2308smoothing 2309smoothing 2310smoothing 2311smoothing 2312smoothing 2313smoothing 2314smoothing 2315smoothing 2316smoothing 2317smoothing 2318smoothing 2319smoothing 2320smoothing 2321smoothing 2322smoothing 2323smoothing 2324smoothing 2325smoothing 2326smoothing 2327smoothing 2328smoothing 2329smoothing 2330smoothing 2331smoothing 2332smoothing 2333smoothing 2334smoothing 2335smoothing 2336smoothing 2337smoothing 2338smoothing 2339smoothing 2340smoothing 2341smoothing 2342smoothing 2343smoothing 2344smoothing 2345smoothing 2346smoothing 2347smoothing 2348smoothing 2349smoothing 2350smoothing 2351smoothing 2352smoothing 2353smoothing 2354smoothing 2355smoothing 2356smoothing 2357smoothing 2358smoothing 2359smoothing 2360smoothing 2361smoothing 2362smoothing 2363smoothing 2364smoothing 2365smoothing 2366smoothing 2367smoothing 2368smoothing 2369smoothing 2370smoothing 2371smoothing 2372smoothing 2373smoothing 2374smoothing 2375smoothing 2376smoothing 2377smoothing 2378smoothing 2379smoothing 2380smoothing 2381smoothing 2382smoothing 2383smoothing 2384smoothing 2385smoothing 2386smoothing 2387smoothing 2388smoothing 2389smoothing 2390smoothing 2391smoothing 2392smoothing 2393smoothing 2394smoothing 2395smoothing 2396smoothing 2397smoothing 2398smoothing 2399smoothing 2400smoothing 2401smoothing 2402smoothing 2403smoothing 2404smoothing 2405smoothing 2406smoothing 2407smoothing 2408smoothing 2409smoothing 2410smoothing 2411smoothing 2412smoothing 2413smoothing 2414smoothing 2415smoothing 2416smoothing 2417smoothing 2418smoothing 2419smoothing 2420smoothing 2421smoothing 2422smoothing 2423smoothing 2424smoothing 2425smoothing 2426smoothing 2427smoothing 2428smoothing 2429smoothing 2430smoothing 2431smoothing 2432smoothing 2433smoothing 2434smoothing 2435smoothing 2436smoothing 2437smoothing 2438smoothing 2439smoothing 2440smoothing 2441smoothing 2442smoothing 2443smoothing 2444smoothing 2445smoothing 2446smoothing 2447smoothing 2448smoothing 2449smoothing 2450smoothing 2451smoothing 2452smoothing 2453smoothing 2454smoothing 2455smoothing 2456smoothing 2457smoothing 2458smoothing 2459smoothing 2460smoothing 2461smoothing 2462smoothing 2463smoothing 2464smoothing 2465smoothing 2466smoothing 2467smoothing 2468smoothing 2469smoothing 2470smoothing 2471smoothing 2472smoothing 2473smoothing 2474smoothing 2475smoothing 2476smoothing 2477smoothing 2478smoothing 2479smoothing 2480smoothing 2481smoothing 2482smoothing 2483smoothing 2484smoothing 2485smoothing 2486smoothing 2487smoothing 2488smoothing 2489smoothing 2490smoothing 2491smoothing 2492smoothing 2493smoothing 2494smoothing 2495smoothing 2496smoothing 2497smoothing 2498smoothing 2499
+
+WARNING: Matrix is not positive definite
+
+picca_metal_dmat.py --in-dir /global/homes/i/ineslie/myhack//Delta_LYA/Delta/ --out /global/homes/i/ineslie/myhack//Correlations/metal_dmat_z_0_10.fits.gz --z-cut-min 0 --z-cut-max 10 --remove-same-half-plate-close-pairs --fid-Om 0.314569514863487 --fid-Or 7.97505418919554e-5 --nside 16 --rej 0.999 --abs-igm CIV\(eff\) SiII\(1260\) SiIII\(1207\) SiII\(1193\) SiII\(1190\) 
+nproc 32
+read 0 of 12 0
+read 1 of 12 1269
+read 2 of 12 2560
+read 3 of 12 2638
+read 4 of 12 2718
+read 5 of 12 2750
+read 6 of 12 2788
+read 7 of 12 2858
+read 8 of 12 2935
+read 9 of 12 2962
+read 10 of 12 3006
+read 11 of 12 5034
+
+
+
+done, npix = 48
+picca_metal_dmat.py - Time reading data: 0.104 minutes
+abs_igm = ['LYA', 'CIV(eff)', 'SiII(1260)', 'SiIII(1207)', 'SiII(1193)', 'SiII(1190)']
+
+computing metal dmat LYA CIV(eff): 0.0%
+computing metal dmat LYA CIV(eff): 14.04%
+computing metal dmat LYA CIV(eff): 28.07%
+computing metal dmat LYA CIV(eff): 42.11%
+computing metal dmat LYA CIV(eff): 56.15%
+computing metal dmat LYA CIV(eff): 70.19%
+computing metal dmat LYA CIV(eff): 84.22%
+computing metal dmat LYA CIV(eff): 98.26%
+
+computing metal dmat LYA SiII(1260): 0.0%
+computing metal dmat LYA SiII(1260): 14.04%
+computing metal dmat LYA SiII(1260): 28.07%
+computing metal dmat LYA SiII(1260): 42.11%
+computing metal dmat LYA SiII(1260): 56.15%
+computing metal dmat LYA SiII(1260): 70.19%
+computing metal dmat LYA SiII(1260): 84.22%
+computing metal dmat LYA SiII(1260): 98.26%
+
+computing metal dmat LYA SiIII(1207): 0.0%
+computing metal dmat LYA SiIII(1207): 14.04%
+computing metal dmat LYA SiIII(1207): 28.07%
+computing metal dmat LYA SiIII(1207): 42.11%
+computing metal dmat LYA SiIII(1207): 56.15%
+computing metal dmat LYA SiIII(1207): 70.19%
+computing metal dmat LYA SiIII(1207): 84.22%
+computing metal dmat LYA SiIII(1207): 98.26%
+
+computing metal dmat LYA SiII(1193): 0.0%
+computing metal dmat LYA SiII(1193): 14.04%
+computing metal dmat LYA SiII(1193): 28.07%
+computing metal dmat LYA SiII(1193): 42.11%
+computing metal dmat LYA SiII(1193): 56.15%
+computing metal dmat LYA SiII(1193): 70.19%
+computing metal dmat LYA SiII(1193): 84.22%
+computing metal dmat LYA SiII(1193): 98.26%
+
+computing metal dmat LYA SiII(1190): 0.0%
+computing metal dmat LYA SiII(1190): 14.04%
+computing metal dmat LYA SiII(1190): 28.07%
+computing metal dmat LYA SiII(1190): 42.11%
+computing metal dmat LYA SiII(1190): 56.15%
+computing metal dmat LYA SiII(1190): 70.19%
+computing metal dmat LYA SiII(1190): 84.22%
+computing metal dmat LYA SiII(1190): 98.26%
+
+computing metal dmat CIV(eff) CIV(eff): 0.0%
+computing metal dmat CIV(eff) CIV(eff): 14.04%
+computing metal dmat CIV(eff) CIV(eff): 28.07%
+computing metal dmat CIV(eff) CIV(eff): 42.11%
+computing metal dmat CIV(eff) CIV(eff): 56.15%
+computing metal dmat CIV(eff) CIV(eff): 70.19%
+computing metal dmat CIV(eff) CIV(eff): 84.22%
+computing metal dmat CIV(eff) CIV(eff): 98.26%
+
+computing metal dmat CIV(eff) SiII(1260): 0.0%
+computing metal dmat CIV(eff) SiII(1260): 14.04%
+computing metal dmat CIV(eff) SiII(1260): 28.07%
+computing metal dmat CIV(eff) SiII(1260): 42.11%
+computing metal dmat CIV(eff) SiII(1260): 56.15%
+computing metal dmat CIV(eff) SiII(1260): 70.19%
+computing metal dmat CIV(eff) SiII(1260): 84.22%
+computing metal dmat CIV(eff) SiII(1260): 98.26%
+
+computing metal dmat CIV(eff) SiIII(1207): 0.0%
+computing metal dmat CIV(eff) SiIII(1207): 14.04%
+computing metal dmat CIV(eff) SiIII(1207): 28.07%
+computing metal dmat CIV(eff) SiIII(1207): 42.11%
+computing metal dmat CIV(eff) SiIII(1207): 56.15%
+computing metal dmat CIV(eff) SiIII(1207): 70.19%
+computing metal dmat CIV(eff) SiIII(1207): 84.22%
+computing metal dmat CIV(eff) SiIII(1207): 98.26%
+
+computing metal dmat CIV(eff) SiII(1193): 0.0%
+computing metal dmat CIV(eff) SiII(1193): 14.04%
+computing metal dmat CIV(eff) SiII(1193): 28.07%
+computing metal dmat CIV(eff) SiII(1193): 42.11%
+computing metal dmat CIV(eff) SiII(1193): 56.15%
+computing metal dmat CIV(eff) SiII(1193): 70.19%
+computing metal dmat CIV(eff) SiII(1193): 84.22%
+computing metal dmat CIV(eff) SiII(1193): 98.26%
+
+computing metal dmat CIV(eff) SiII(1190): 0.0%
+computing metal dmat CIV(eff) SiII(1190): 14.04%
+computing metal dmat CIV(eff) SiII(1190): 28.07%
+computing metal dmat CIV(eff) SiII(1190): 42.11%
+computing metal dmat CIV(eff) SiII(1190): 56.15%
+computing metal dmat CIV(eff) SiII(1190): 70.19%
+computing metal dmat CIV(eff) SiII(1190): 84.22%
+computing metal dmat CIV(eff) SiII(1190): 98.26%
+
+computing metal dmat SiII(1260) SiII(1260): 0.0%
+computing metal dmat SiII(1260) SiII(1260): 14.04%
+computing metal dmat SiII(1260) SiII(1260): 28.07%
+computing metal dmat SiII(1260) SiII(1260): 42.11%
+computing metal dmat SiII(1260) SiII(1260): 56.15%
+computing metal dmat SiII(1260) SiII(1260): 70.19%
+computing metal dmat SiII(1260) SiII(1260): 84.22%
+computing metal dmat SiII(1260) SiII(1260): 98.26%
+
+computing metal dmat SiII(1260) SiIII(1207): 0.0%
+computing metal dmat SiII(1260) SiIII(1207): 14.04%
+computing metal dmat SiII(1260) SiIII(1207): 28.07%
+computing metal dmat SiII(1260) SiIII(1207): 42.11%
+computing metal dmat SiII(1260) SiIII(1207): 56.15%
+computing metal dmat SiII(1260) SiIII(1207): 70.19%
+computing metal dmat SiII(1260) SiIII(1207): 84.22%
+computing metal dmat SiII(1260) SiIII(1207): 98.26%
+
+computing metal dmat SiII(1260) SiII(1193): 0.0%
+computing metal dmat SiII(1260) SiII(1193): 14.04%
+computing metal dmat SiII(1260) SiII(1193): 28.07%
+computing metal dmat SiII(1260) SiII(1193): 42.11%
+computing metal dmat SiII(1260) SiII(1193): 56.15%
+computing metal dmat SiII(1260) SiII(1193): 70.19%
+computing metal dmat SiII(1260) SiII(1193): 84.22%
+computing metal dmat SiII(1260) SiII(1193): 98.26%
+
+computing metal dmat SiII(1260) SiII(1190): 0.0%
+computing metal dmat SiII(1260) SiII(1190): 14.04%
+computing metal dmat SiII(1260) SiII(1190): 28.07%
+computing metal dmat SiII(1260) SiII(1190): 42.11%
+computing metal dmat SiII(1260) SiII(1190): 56.15%
+computing metal dmat SiII(1260) SiII(1190): 70.19%
+computing metal dmat SiII(1260) SiII(1190): 84.22%
+computing metal dmat SiII(1260) SiII(1190): 98.26%
+
+computing metal dmat SiIII(1207) SiIII(1207): 0.0%
+computing metal dmat SiIII(1207) SiIII(1207): 14.04%
+computing metal dmat SiIII(1207) SiIII(1207): 28.07%
+computing metal dmat SiIII(1207) SiIII(1207): 42.11%
+computing metal dmat SiIII(1207) SiIII(1207): 56.15%
+computing metal dmat SiIII(1207) SiIII(1207): 70.19%
+computing metal dmat SiIII(1207) SiIII(1207): 84.22%
+computing metal dmat SiIII(1207) SiIII(1207): 98.26%
+
+computing metal dmat SiIII(1207) SiII(1193): 0.0%
+computing metal dmat SiIII(1207) SiII(1193): 14.04%
+computing metal dmat SiIII(1207) SiII(1193): 28.07%
+computing metal dmat SiIII(1207) SiII(1193): 42.11%
+computing metal dmat SiIII(1207) SiII(1193): 56.15%
+computing metal dmat SiIII(1207) SiII(1193): 70.19%
+computing metal dmat SiIII(1207) SiII(1193): 84.22%
+computing metal dmat SiIII(1207) SiII(1193): 98.26%
+
+computing metal dmat SiIII(1207) SiII(1190): 0.0%
+computing metal dmat SiIII(1207) SiII(1190): 14.04%
+computing metal dmat SiIII(1207) SiII(1190): 28.07%
+computing metal dmat SiIII(1207) SiII(1190): 42.11%
+computing metal dmat SiIII(1207) SiII(1190): 56.15%
+computing metal dmat SiIII(1207) SiII(1190): 70.19%
+computing metal dmat SiIII(1207) SiII(1190): 84.22%
+computing metal dmat SiIII(1207) SiII(1190): 98.26%
+
+computing metal dmat SiII(1193) SiII(1193): 0.0%
+computing metal dmat SiII(1193) SiII(1193): 14.04%
+computing metal dmat SiII(1193) SiII(1193): 28.07%
+computing metal dmat SiII(1193) SiII(1193): 42.11%
+computing metal dmat SiII(1193) SiII(1193): 56.15%
+computing metal dmat SiII(1193) SiII(1193): 70.19%
+computing metal dmat SiII(1193) SiII(1193): 84.22%
+computing metal dmat SiII(1193) SiII(1193): 98.26%
+
+computing metal dmat SiII(1193) SiII(1190): 0.0%
+computing metal dmat SiII(1193) SiII(1190): 14.04%
+computing metal dmat SiII(1193) SiII(1190): 28.07%
+computing metal dmat SiII(1193) SiII(1190): 42.11%
+computing metal dmat SiII(1193) SiII(1190): 56.15%
+computing metal dmat SiII(1193) SiII(1190): 70.19%
+computing metal dmat SiII(1193) SiII(1190): 84.22%
+computing metal dmat SiII(1193) SiII(1190): 98.26%
+
+computing metal dmat SiII(1190) SiII(1190): 0.0%
+computing metal dmat SiII(1190) SiII(1190): 14.04%
+computing metal dmat SiII(1190) SiII(1190): 28.07%
+computing metal dmat SiII(1190) SiII(1190): 42.11%
+computing metal dmat SiII(1190) SiII(1190): 56.15%
+computing metal dmat SiII(1190) SiII(1190): 70.19%
+computing metal dmat SiII(1190) SiII(1190): 84.22%
+computing metal dmat SiII(1190) SiII(1190): 98.26%
+picca_metal_dmat.py - Time computing all metal matrices : 2.821 minutes
+picca_metal_dmat.py - Time total : 2.988 minutes
+
+
+Time spent in picca_metal_dmat = 3.0998499075571697 minutes
+
+
+
+
+
+
+

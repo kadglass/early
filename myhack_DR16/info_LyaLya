@@ -1,0 +1,71 @@
+start job
+compute LyaLya
+
+picca_cf.py --in-dir /global/homes/i/ineslie/myhack_DR16//Delta_LYA/Delta/ --out /global/homes/i/ineslie/myhack_DR16//Correlations/cf_z_0_10.fits.gz --z-cut-min 0 --z-cut-max 10 --remove-same-half-plate-close-pairs --fid-Om 0.314569514863487 --fid-Or 7.97505418919554e-5 --nside 16
+read 0 of 14 0
+read 1 of 14 1601
+read 2 of 14 3360
+read 3 of 14 3433
+read 4 of 14 3510
+read 5 of 14 3541
+read 6 of 14 3594
+read 7 of 14 3662
+read 8 of 14 3737
+read 9 of 14 3765
+read 10 of 14 3819
+read 11 of 14 5781
+read 12 of 14 7784
+
+
+Time spent in picca_cf = 0.2441951076189677 minutes
+
+
+
+picca_dmat.py --in-dir /global/homes/i/ineslie/myhack_DR16//Delta_LYA/Delta/ --out /global/homes/i/ineslie/myhack_DR16//Correlations/dmat_z_0_10.fits.gz --remove-same-half-plate-close-pairs --z-cut-min 0 --z-cut-max 10 --fid-Om 0.314569514863487 --fid-Or 7.97505418919554e-5 --nside 16 --rej 0.99
+nproc 32
+read 0 of 14 0
+read 1 of 14 1601
+read 2 of 14 3360
+read 3 of 14 3433
+read 4 of 14 3510
+read 5 of 14 3541
+read 6 of 14 3594
+read 7 of 14 3662
+read 8 of 14 3737
+read 9 of 14 3765
+read 10 of 14 3819
+read 11 of 14 5781
+read 12 of 14 7784
+
+
+Time spent in picca_dmat = 0.16244666576385497 minutes
+
+
+
+picca_export.py --data /global/homes/i/ineslie/myhack_DR16//Correlations/cf_z_0_10.fits.gz --dmat /global/homes/i/ineslie/myhack_DR16//Correlations/dmat_z_0_10.fits.gz --out /global/homes/i/ineslie/myhack_DR16//Correlations/cf_z_0_10-exp.fits.gz
+
+picca_metal_dmat.py --in-dir /global/homes/i/ineslie/myhack_DR16//Delta_LYA/Delta/ --out /global/homes/i/ineslie/myhack_DR16//Correlations/metal_dmat_z_0_10.fits.gz --z-cut-min 0 --z-cut-max 10 --remove-same-half-plate-close-pairs --fid-Om 0.314569514863487 --fid-Or 7.97505418919554e-5 --nside 16 --rej 0.999 --abs-igm CIV\(eff\) SiII\(1260\) SiIII\(1207\) SiII\(1193\) SiII\(1190\) 
+nproc 32
+read 0 of 14 0
+read 1 of 14 1601
+read 2 of 14 3360
+read 3 of 14 3433
+read 4 of 14 3510
+read 5 of 14 3541
+read 6 of 14 3594
+read 7 of 14 3662
+read 8 of 14 3737
+read 9 of 14 3765
+read 10 of 14 3819
+read 11 of 14 5781
+read 12 of 14 7784
+
+
+Time spent in picca_metal_dmat = 0.16089938481648763 minutes
+
+
+
+
+
+
+

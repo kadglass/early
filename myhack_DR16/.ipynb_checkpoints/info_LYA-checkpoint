@@ -1,0 +1,407 @@
+zqso_min = 2.0
+mode: spplate
+Reading catalog from  $MY_HACK_DR16/Catalogs/DR16Q_S82.fits
+
+ start                 : nb object in cat = 9139
+ and THING_ID > 0       : nb object in cat = 8999
+ and ra != dec         : nb object in cat = 8999
+ and ra != 0.          : nb object in cat = 8999
+ and dec != 0.         : nb object in cat = 8999
+ and z >= 2.0        : nb object in cat = 8999
+ and z < 3.5         : nb object in cat = 8999
+ and BI_CIV <= 0.0  : nb object in cat = 8488
+reading 360 plates
+INFO: read 27 from spPlate-7850-56956.fits in 0.004 per spec.  Progress: 27 of 8488 
+INFO: read 107 from spPlate-7848-56959.fits in 0.001 per spec.  Progress: 134 of 8488 
+INFO: read 73 from spPlate-4216-55477.fits in 0.001 per spec.  Progress: 207 of 8488 
+INFO: read 9 from spPlate-7852-56987.fits in 0.006 per spec.  Progress: 216 of 8488 
+INFO: read 3 from spPlate-9403-58018.fits in 0.020 per spec.  Progress: 219 of 8488 
+INFO: read 77 from spPlate-4217-55478.fits in 0.002 per spec.  Progress: 296 of 8488 
+INFO: read 68 from spPlate-7862-56984.fits in 0.001 per spec.  Progress: 364 of 8488 
+INFO: read 2 from spPlate-4365-55539.fits in 0.027 per spec.  Progress: 366 of 8488 
+INFO: read 20 from spPlate-7863-56975.fits in 0.003 per spec.  Progress: 386 of 8488 
+INFO: read 85 from spPlate-4218-55479.fits in 0.001 per spec.  Progress: 471 of 8488 
+INFO: read 16 from spPlate-7853-56988.fits in 0.004 per spec.  Progress: 487 of 8488 
+INFO: read 85 from spPlate-7864-56979.fits in 0.001 per spec.  Progress: 572 of 8488 
+INFO: read 1 from spPlate-9406-58067.fits in 0.063 per spec.  Progress: 573 of 8488 
+INFO: read 1 from spPlate-9407-58041.fits in 0.052 per spec.  Progress: 574 of 8488 
+INFO: read 80 from spPlate-4219-55480.fits in 0.002 per spec.  Progress: 654 of 8488 
+INFO: read 7 from spPlate-7854-56989.fits in 0.009 per spec.  Progress: 661 of 8488 
+INFO: read 17 from spPlate-7865-56955.fits in 0.010 per spec.  Progress: 678 of 8488 
+INFO: read 3 from spPlate-9405-58048.fits in 0.023 per spec.  Progress: 681 of 8488 
+INFO: read 71 from spPlate-4220-55447.fits in 0.004 per spec.  Progress: 752 of 8488 
+INFO: read 86 from spPlate-7866-57002.fits in 0.001 per spec.  Progress: 838 of 8488 
+INFO: read 2 from spPlate-4367-55566.fits in 0.031 per spec.  Progress: 840 of 8488 
+INFO: read 1 from spPlate-4302-55531.fits in 0.066 per spec.  Progress: 841 of 8488 
+INFO: read 24 from spPlate-7867-57003.fits in 0.003 per spec.  Progress: 865 of 8488 
+INFO: read 9 from spPlate-7855-57011.fits in 0.006 per spec.  Progress: 874 of 8488 
+INFO: read 58 from spPlate-4221-55443.fits in 0.001 per spec.  Progress: 932 of 8488 
+INFO: read 13 from spPlate-3586-55181.fits in 0.004 per spec.  Progress: 945 of 8488 
+INFO: read 2 from spPlate-9404-58045.fits in 0.028 per spec.  Progress: 947 of 8488 
+INFO: read 26 from spPlate-3587-55182.fits in 0.002 per spec.  Progress: 973 of 8488 
+INFO: read 65 from spPlate-7868-57006.fits in 0.001 per spec.  Progress: 1038 of 8488 
+INFO: read 29 from spPlate-3588-55184.fits in 0.005 per spec.  Progress: 1067 of 8488 
+INFO: read 60 from spPlate-4222-55444.fits in 0.002 per spec.  Progress: 1127 of 8488 
+INFO: read 10 from spPlate-7856-57260.fits in 0.005 per spec.  Progress: 1137 of 8488 
+INFO: read 12 from spPlate-7869-57012.fits in 0.005 per spec.  Progress: 1149 of 8488 
+INFO: read 69 from spPlate-7870-57016.fits in 0.001 per spec.  Progress: 1218 of 8488 
+INFO: read 9 from spPlate-3589-55186.fits in 0.006 per spec.  Progress: 1227 of 8488 
+INFO: read 77 from spPlate-4223-55451.fits in 0.001 per spec.  Progress: 1304 of 8488 
+INFO: read 28 from spPlate-3590-55201.fits in 0.003 per spec.  Progress: 1332 of 8488 
+INFO: read 1 from spPlate-9408-58077.fits in 0.066 per spec.  Progress: 1333 of 8488 
+INFO: read 1 from spPlate-4306-55584.fits in 0.052 per spec.  Progress: 1334 of 8488 
+INFO: read 1 from spPlate-9351-58049.fits in 0.057 per spec.  Progress: 1335 of 8488 
+INFO: read 21 from spPlate-7871-56902.fits in 0.003 per spec.  Progress: 1356 of 8488 
+INFO: read 19 from spPlate-7857-57278.fits in 0.003 per spec.  Progress: 1375 of 8488 
+INFO: read 69 from spPlate-4224-55481.fits in 0.001 per spec.  Progress: 1444 of 8488 
+INFO: read 78 from spPlate-7872-57279.fits in 0.001 per spec.  Progress: 1522 of 8488 
+INFO: read 2 from spPlate-9389-58097.fits in 0.023 per spec.  Progress: 1524 of 8488 
+INFO: read 70 from spPlate-4225-55455.fits in 0.002 per spec.  Progress: 1594 of 8488 
+INFO: read 15 from spPlate-7858-57281.fits in 0.004 per spec.  Progress: 1609 of 8488 
+INFO: read 36 from spPlate-8788-57360.fits in 0.070 per spec.  Progress: 1645 of 8488 
+INFO: read 19 from spPlate-7873-57307.fits in 0.004 per spec.  Progress: 1664 of 8488 
+INFO: read 18 from spPlate-3735-55209.fits in 0.003 per spec.  Progress: 1682 of 8488 
+INFO: read 76 from spPlate-7874-57279.fits in 0.002 per spec.  Progress: 1758 of 8488 
+INFO: read 65 from spPlate-4226-55475.fits in 0.002 per spec.  Progress: 1823 of 8488 
+INFO: read 30 from spPlate-8789-57358.fits in 0.002 per spec.  Progress: 1853 of 8488 
+INFO: read 5 from spPlate-3736-55214.fits in 0.011 per spec.  Progress: 1858 of 8488 
+INFO: read 8 from spPlate-7859-57282.fits in 0.007 per spec.  Progress: 1866 of 8488 
+INFO: read 1 from spPlate-4373-55811.fits in 0.054 per spec.  Progress: 1867 of 8488 
+INFO: read 79 from spPlate-4227-55481.fits in 0.001 per spec.  Progress: 1946 of 8488 
+INFO: read 13 from spPlate-7875-56980.fits in 0.006 per spec.  Progress: 1959 of 8488 
+INFO: read 80 from spPlate-7876-57002.fits in 0.001 per spec.  Progress: 2039 of 8488 
+INFO: read 1 from spPlate-4315-55503.fits in 0.046 per spec.  Progress: 2040 of 8488 
+INFO: read 35 from spPlate-8790-57363.fits in 0.002 per spec.  Progress: 2075 of 8488 
+INFO: read 73 from spPlate-4228-55484.fits in 0.001 per spec.  Progress: 2148 of 8488 
+INFO: read 14 from spPlate-7861-57281.fits in 0.004 per spec.  Progress: 2162 of 8488 
+INFO: read 1 from spPlate-9391-58072.fits in 0.057 per spec.  Progress: 2163 of 8488 
+INFO: read 15 from spPlate-7877-56898.fits in 0.008 per spec.  Progress: 2178 of 8488 
+INFO: read 1 from spPlate-9328-57727.fits in 0.054 per spec.  Progress: 2179 of 8488 
+INFO: read 80 from spPlate-7818-56989.fits in 0.002 per spec.  Progress: 2259 of 8488 
+INFO: read 90 from spPlate-4229-55501.fits in 0.001 per spec.  Progress: 2349 of 8488 
+INFO: read 1 from spPlate-9401-58103.fits in 0.055 per spec.  Progress: 2350 of 8488 
+INFO: read 1 from spPlate-4314-55855.fits in 0.053 per spec.  Progress: 2351 of 8488 
+INFO: read 39 from spPlate-8791-57373.fits in 0.002 per spec.  Progress: 2390 of 8488 
+INFO: read 1 from spPlate-4352-55533.fits in 0.047 per spec.  Progress: 2391 of 8488 
+INFO: read 7 from spPlate-7860-57006.fits in 0.007 per spec.  Progress: 2398 of 8488 
+INFO: read 23 from spPlate-7846-56984.fits in 0.003 per spec.  Progress: 2421 of 8488 
+INFO: read 88 from spPlate-4230-55483.fits in 0.001 per spec.  Progress: 2509 of 8488 
+INFO: read 63 from spPlate-7847-57012.fits in 0.001 per spec.  Progress: 2572 of 8488 
+INFO: read 33 from spPlate-8792-57364.fits in 0.002 per spec.  Progress: 2605 of 8488 
+INFO: read 19 from spPlate-3639-55205.fits in 0.003 per spec.  Progress: 2624 of 8488 
+INFO: read 2 from spPlate-9399-58125.fits in 0.027 per spec.  Progress: 2626 of 8488 
+INFO: read 83 from spPlate-4231-55444.fits in 0.001 per spec.  Progress: 2709 of 8488 
+INFO: read 9 from spPlate-7842-56899.fits in 0.013 per spec.  Progress: 2718 of 8488 
+INFO: read 19 from spPlate-7845-56980.fits in 0.005 per spec.  Progress: 2737 of 8488 
+INFO: read 1 from spPlate-9379-58081.fits in 0.055 per spec.  Progress: 2738 of 8488 
+INFO: read 93 from spPlate-7843-56902.fits in 0.001 per spec.  Progress: 2831 of 8488 
+INFO: read 1 from spPlate-9398-58124.fits in 0.051 per spec.  Progress: 2832 of 8488 
+INFO: read 2 from spPlate-4275-55501.fits in 0.027 per spec.  Progress: 2834 of 8488 
+INFO: read 1 from spPlate-9324-58077.fits in 0.050 per spec.  Progress: 2835 of 8488 
+INFO: read 32 from spPlate-8793-57391.fits in 0.002 per spec.  Progress: 2867 of 8488 
+INFO: read 59 from spPlate-4232-55447.fits in 0.001 per spec.  Progress: 2926 of 8488 
+INFO: read 21 from spPlate-7844-56982.fits in 0.002 per spec.  Progress: 2947 of 8488 
+INFO: read 17 from spPlate-7839-56900.fits in 0.010 per spec.  Progress: 2964 of 8488 
+INFO: read 25 from spPlate-3606-55182.fits in 0.002 per spec.  Progress: 2989 of 8488 
+INFO: read 75 from spPlate-7840-57003.fits in 0.001 per spec.  Progress: 3064 of 8488 
+INFO: read 60 from spPlate-4233-55449.fits in 0.001 per spec.  Progress: 3124 of 8488 
+INFO: read 2 from spPlate-9390-58103.fits in 0.026 per spec.  Progress: 3126 of 8488 
+INFO: read 15 from spPlate-7841-56960.fits in 0.006 per spec.  Progress: 3141 of 8488 
+INFO: read 1 from spPlate-9378-58071.fits in 0.056 per spec.  Progress: 3142 of 8488 
+INFO: read 12 from spPlate-7836-57278.fits in 0.005 per spec.  Progress: 3154 of 8488 
+INFO: read 68 from spPlate-4234-55478.fits in 0.001 per spec.  Progress: 3222 of 8488 
+INFO: read 55 from spPlate-7837-56987.fits in 0.001 per spec.  Progress: 3277 of 8488 
+INFO: read 25 from spPlate-3609-55201.fits in 0.002 per spec.  Progress: 3302 of 8488 
+INFO: read 1 from spPlate-9386-58079.fits in 0.060 per spec.  Progress: 3303 of 8488 
+INFO: read 62 from spPlate-4235-55451.fits in 0.001 per spec.  Progress: 3365 of 8488 
+INFO: read 15 from spPlate-7838-56958.fits in 0.003 per spec.  Progress: 3380 of 8488 
+INFO: read 14 from spPlate-7833-57286.fits in 0.004 per spec.  Progress: 3394 of 8488 
+INFO: read 110 from spPlate-7834-56979.fits in 0.001 per spec.  Progress: 3504 of 8488 
+INFO: read 68 from spPlate-4236-55479.fits in 0.001 per spec.  Progress: 3572 of 8488 
+INFO: read 1 from spPlate-9383-58097.fits in 0.118 per spec.  Progress: 3573 of 8488 
+INFO: read 11 from spPlate-7830-57043.fits in 0.013 per spec.  Progress: 3584 of 8488 
+INFO: read 8 from spPlate-7835-56986.fits in 0.008 per spec.  Progress: 3592 of 8488 
+INFO: read 1 from spPlate-4267-55484.fits in 0.051 per spec.  Progress: 3593 of 8488 
+INFO: read 52 from spPlate-7831-57016.fits in 0.003 per spec.  Progress: 3645 of 8488 
+INFO: read 90 from spPlate-4237-55478.fits in 0.001 per spec.  Progress: 3735 of 8488 
+INFO: read 1 from spPlate-9382-57746.fits in 0.054 per spec.  Progress: 3736 of 8488 
+INFO: read 1 from spPlate-4345-55569.fits in 0.127 per spec.  Progress: 3737 of 8488 
+INFO: read 3 from spPlate-3647-55476.fits in 0.040 per spec.  Progress: 3740 of 8488 
+INFO: read 4 from spPlate-7827-57278.fits in 0.023 per spec.  Progress: 3744 of 8488 
+INFO: read 1 from spPlate-9421-58081.fits in 0.057 per spec.  Progress: 3745 of 8488 
+INFO: read 24 from spPlate-3615-55179.fits in 0.003 per spec.  Progress: 3769 of 8488 
+INFO: read 2 from spPlate-7832-56904.fits in 0.028 per spec.  Progress: 3771 of 8488 
+INFO: read 21 from spPlate-3615-56544.fits in 0.003 per spec.  Progress: 3792 of 8488 
+INFO: read 2 from spPlate-3647-56219.fits in 0.025 per spec.  Progress: 3794 of 8488 
+INFO: read 48 from spPlate-4238-55455.fits in 0.001 per spec.  Progress: 3842 of 8488 
+INFO: read 41 from spPlate-7828-57039.fits in 0.002 per spec.  Progress: 3883 of 8488 
+INFO: read 25 from spPlate-7334-56656.fits in 0.002 per spec.  Progress: 3908 of 8488 
+INFO: read 16 from spPlate-6780-56577.fits in 0.004 per spec.  Progress: 3924 of 8488 
+INFO: read 1 from spPlate-3647-55181.fits in 0.057 per spec.  Progress: 3925 of 8488 
+INFO: read 17 from spPlate-6780-56605.fits in 0.003 per spec.  Progress: 3942 of 8488 
+INFO: read 12 from spPlate-6780-56267.fits in 0.004 per spec.  Progress: 3954 of 8488 
+INFO: read 19 from spPlate-6370-56238.fits in 0.003 per spec.  Progress: 3973 of 8488 
+INFO: read 5 from spPlate-3615-55208.fits in 0.010 per spec.  Progress: 3978 of 8488 
+INFO: read 4 from spPlate-3615-55445.fits in 0.011 per spec.  Progress: 3982 of 8488 
+INFO: read 1 from spPlate-3647-55241.fits in 0.047 per spec.  Progress: 3983 of 8488 
+INFO: read 17 from spPlate-3744-55209.fits in 0.003 per spec.  Progress: 4000 of 8488 
+INFO: read 2 from spPlate-3647-55827.fits in 0.025 per spec.  Progress: 4002 of 8488 
+INFO: read 43 from spPlate-4239-55458.fits in 0.002 per spec.  Progress: 4045 of 8488 
+INFO: read 8 from spPlate-6781-56575.fits in 0.007 per spec.  Progress: 4053 of 8488 
+INFO: read 22 from spPlate-3745-55234.fits in 0.002 per spec.  Progress: 4075 of 8488 
+INFO: read 43 from spPlate-6781-56274.fits in 0.001 per spec.  Progress: 4118 of 8488 
+INFO: read 1 from spPlate-3615-56219.fits in 0.051 per spec.  Progress: 4119 of 8488 
+INFO: read 2 from spPlate-7829-57011.fits in 0.031 per spec.  Progress: 4121 of 8488 
+INFO: read 18 from spPlate-7336-56656.fits in 0.003 per spec.  Progress: 4139 of 8488 
+INFO: read 29 from spPlate-7825-57030.fits in 0.002 per spec.  Progress: 4168 of 8488 
+INFO: read 21 from spPlate-3650-55244.fits in 0.003 per spec.  Progress: 4189 of 8488 
+INFO: read 4 from spPlate-6781-56599.fits in 0.023 per spec.  Progress: 4193 of 8488 
+INFO: read 65 from spPlate-4240-55455.fits in 0.004 per spec.  Progress: 4258 of 8488 
+INFO: read 10 from spPlate-6782-56576.fits in 0.014 per spec.  Progress: 4268 of 8488 
+INFO: read 6 from spPlate-3651-55247.fits in 0.009 per spec.  Progress: 4274 of 8488 
+INFO: read 1 from spPlate-9374-57749.fits in 0.055 per spec.  Progress: 4275 of 8488 
+INFO: read 18 from spPlate-6782-56273.fits in 0.003 per spec.  Progress: 4293 of 8488 
+INFO: read 38 from spPlate-7337-56662.fits in 0.002 per spec.  Progress: 4331 of 8488 
+INFO: read 3 from spPlate-7821-57279.fits in 0.019 per spec.  Progress: 4334 of 8488 
+INFO: read 44 from spPlate-6782-56572.fits in 0.001 per spec.  Progress: 4378 of 8488 
+INFO: read 7 from spPlate-6782-56602.fits in 0.022 per spec.  Progress: 4385 of 8488 
+INFO: read 1 from spPlate-9381-57758.fits in 0.052 per spec.  Progress: 4386 of 8488 
+INFO: read 47 from spPlate-7822-57041.fits in 0.001 per spec.  Progress: 4433 of 8488 
+INFO: read 25 from spPlate-7337-56686.fits in 0.002 per spec.  Progress: 4458 of 8488 
+INFO: read 76 from spPlate-4241-55450.fits in 0.001 per spec.  Progress: 4534 of 8488 
+INFO: read 1 from spPlate-7826-56931.fits in 0.051 per spec.  Progress: 4535 of 8488 
+INFO: read 10 from spPlate-7819-57280.fits in 0.006 per spec.  Progress: 4545 of 8488 
+INFO: read 2 from spPlate-7823-56978.fits in 0.026 per spec.  Progress: 4547 of 8488 
+INFO: read 64 from spPlate-7820-56984.fits in 0.001 per spec.  Progress: 4611 of 8488 
+INFO: read 90 from spPlate-4242-55476.fits in 0.001 per spec.  Progress: 4701 of 8488 
+INFO: read 87 from spPlate-4191-55444.fits in 0.001 per spec.  Progress: 4788 of 8488 
+INFO: read 10 from spPlate-9160-57656.fits in 0.006 per spec.  Progress: 4798 of 8488 
+INFO: read 7 from spPlate-9139-58038.fits in 0.009 per spec.  Progress: 4805 of 8488 
+INFO: read 20 from spPlate-5141-55746.fits in 0.003 per spec.  Progress: 4825 of 8488 
+INFO: read 81 from spPlate-4192-55469.fits in 0.001 per spec.  Progress: 4906 of 8488 
+INFO: read 22 from spPlate-9140-58039.fits in 0.003 per spec.  Progress: 4928 of 8488 
+INFO: read 1 from spPlate-4382-55742.fits in 0.050 per spec.  Progress: 4929 of 8488 
+INFO: read 14 from spPlate-9161-57691.fits in 0.004 per spec.  Progress: 4943 of 8488 
+INFO: read 25 from spPlate-5142-55825.fits in 0.005 per spec.  Progress: 4968 of 8488 
+INFO: read 86 from spPlate-4193-55476.fits in 0.001 per spec.  Progress: 5054 of 8488 
+INFO: read 47 from spPlate-9141-57663.fits in 0.001 per spec.  Progress: 5101 of 8488 
+INFO: read 28 from spPlate-5143-55828.fits in 0.002 per spec.  Progress: 5129 of 8488 
+INFO: read 8 from spPlate-9162-58040.fits in 0.006 per spec.  Progress: 5137 of 8488 
+INFO: read 48 from spPlate-9180-57693.fits in 0.001 per spec.  Progress: 5185 of 8488 
+INFO: read 62 from spPlate-4194-55450.fits in 0.002 per spec.  Progress: 5247 of 8488 
+INFO: read 1 from spPlate-9222-57680.fits in 0.065 per spec.  Progress: 5248 of 8488 
+INFO: read 18 from spPlate-5144-55829.fits in 0.003 per spec.  Progress: 5266 of 8488 
+INFO: read 9 from spPlate-9163-58043.fits in 0.005 per spec.  Progress: 5275 of 8488 
+INFO: read 95 from spPlate-4195-55452.fits in 0.001 per spec.  Progress: 5370 of 8488 
+INFO: read 41 from spPlate-9142-57664.fits in 0.001 per spec.  Progress: 5411 of 8488 
+INFO: read 32 from spPlate-5145-55835.fits in 0.002 per spec.  Progress: 5443 of 8488 
+INFO: read 1 from spPlate-4385-55752.fits in 0.050 per spec.  Progress: 5444 of 8488 
+INFO: read 56 from spPlate-9143-57665.fits in 0.002 per spec.  Progress: 5500 of 8488 
+INFO: read 68 from spPlate-4196-55478.fits in 0.001 per spec.  Progress: 5568 of 8488 
+INFO: read 6 from spPlate-9164-58045.fits in 0.009 per spec.  Progress: 5574 of 8488 
+INFO: read 22 from spPlate-5146-55831.fits in 0.006 per spec.  Progress: 5596 of 8488 
+INFO: read 73 from spPlate-4197-55479.fits in 0.001 per spec.  Progress: 5669 of 8488 
+INFO: read 1 from spPlate-9230-58021.fits in 0.053 per spec.  Progress: 5670 of 8488 
+INFO: read 37 from spPlate-9144-57666.fits in 0.001 per spec.  Progress: 5707 of 8488 
+INFO: read 21 from spPlate-9165-58048.fits in 0.003 per spec.  Progress: 5728 of 8488 
+INFO: read 38 from spPlate-5147-55854.fits in 0.004 per spec.  Progress: 5766 of 8488 
+INFO: read 1 from spPlate-4375-55889.fits in 0.235 per spec.  Progress: 5767 of 8488 
+INFO: read 73 from spPlate-4198-55480.fits in 0.001 per spec.  Progress: 5840 of 8488 
+INFO: read 44 from spPlate-9145-58041.fits in 0.002 per spec.  Progress: 5884 of 8488 
+INFO: read 19 from spPlate-9166-58051.fits in 0.003 per spec.  Progress: 5903 of 8488 
+INFO: read 2 from spPlate-4376-55863.fits in 0.030 per spec.  Progress: 5905 of 8488 
+INFO: read 94 from spPlate-4199-55481.fits in 0.001 per spec.  Progress: 5999 of 8488 
+INFO: read 4 from spPlate-9235-58021.fits in 0.018 per spec.  Progress: 6003 of 8488 
+INFO: read 1 from spPlate-9234-58037.fits in 0.128 per spec.  Progress: 6004 of 8488 
+INFO: read 40 from spPlate-9146-58042.fits in 0.002 per spec.  Progress: 6044 of 8488 
+INFO: read 3 from spPlate-4377-55828.fits in 0.018 per spec.  Progress: 6047 of 8488 
+INFO: read 114 from spPlate-4200-55499.fits in 0.001 per spec.  Progress: 6161 of 8488 
+INFO: read 21 from spPlate-9167-58064.fits in 0.003 per spec.  Progress: 6182 of 8488 
+INFO: read 42 from spPlate-9147-58038.fits in 0.001 per spec.  Progress: 6224 of 8488 
+INFO: read 94 from spPlate-4201-55443.fits in 0.001 per spec.  Progress: 6318 of 8488 
+INFO: read 1 from spPlate-9236-57685.fits in 0.061 per spec.  Progress: 6319 of 8488 
+INFO: read 27 from spPlate-9168-58067.fits in 0.003 per spec.  Progress: 6346 of 8488 
+INFO: read 2 from spPlate-9238-58013.fits in 0.029 per spec.  Progress: 6348 of 8488 
+INFO: read 70 from spPlate-4202-55445.fits in 0.001 per spec.  Progress: 6418 of 8488 
+INFO: read 30 from spPlate-9148-58039.fits in 0.002 per spec.  Progress: 6448 of 8488 
+INFO: read 1 from spPlate-9241-58014.fits in 0.052 per spec.  Progress: 6449 of 8488 
+INFO: read 2 from spPlate-4380-55857.fits in 0.026 per spec.  Progress: 6451 of 8488 
+INFO: read 21 from spPlate-9169-58069.fits in 0.003 per spec.  Progress: 6472 of 8488 
+INFO: read 90 from spPlate-4203-55447.fits in 0.001 per spec.  Progress: 6562 of 8488 
+INFO: read 4 from spPlate-9240-57687.fits in 0.013 per spec.  Progress: 6566 of 8488 
+INFO: read 39 from spPlate-9149-58039.fits in 0.002 per spec.  Progress: 6605 of 8488 
+INFO: read 93 from spPlate-4204-55470.fits in 0.002 per spec.  Progress: 6698 of 8488 
+INFO: read 4 from spPlate-9197-57680.fits in 0.011 per spec.  Progress: 6702 of 8488 
+INFO: read 18 from spPlate-9170-58048.fits in 0.003 per spec.  Progress: 6720 of 8488 
+INFO: read 46 from spPlate-9150-58043.fits in 0.001 per spec.  Progress: 6766 of 8488 
+INFO: read 1 from spPlate-4381-55824.fits in 0.051 per spec.  Progress: 6767 of 8488 
+INFO: read 79 from spPlate-4205-55454.fits in 0.001 per spec.  Progress: 6846 of 8488 
+INFO: read 27 from spPlate-9171-58068.fits in 0.004 per spec.  Progress: 6873 of 8488 
+INFO: read 47 from spPlate-9151-58067.fits in 0.001 per spec.  Progress: 6920 of 8488 
+INFO: read 1 from spPlate-9218-57724.fits in 0.047 per spec.  Progress: 6921 of 8488 
+INFO: read 96 from spPlate-4206-55471.fits in 0.001 per spec.  Progress: 7017 of 8488 
+INFO: read 7 from spPlate-9216-57693.fits in 0.008 per spec.  Progress: 7024 of 8488 
+INFO: read 29 from spPlate-9172-58015.fits in 0.002 per spec.  Progress: 7053 of 8488 
+INFO: read 1 from spPlate-4294-55500.fits in 0.051 per spec.  Progress: 7054 of 8488 
+INFO: read 36 from spPlate-9152-58041.fits in 0.002 per spec.  Progress: 7090 of 8488 
+INFO: read 97 from spPlate-4207-55475.fits in 0.001 per spec.  Progress: 7187 of 8488 
+INFO: read 1 from spPlate-9206-57687.fits in 0.044 per spec.  Progress: 7188 of 8488 
+INFO: read 2 from spPlate-9215-57682.fits in 0.058 per spec.  Progress: 7190 of 8488 
+INFO: read 1 from spPlate-4362-55828.fits in 0.048 per spec.  Progress: 7191 of 8488 
+INFO: read 4 from spPlate-9205-57711.fits in 0.033 per spec.  Progress: 7195 of 8488 
+INFO: read 5 from spPlate-9214-57684.fits in 0.011 per spec.  Progress: 7200 of 8488 
+INFO: read 90 from spPlate-4208-55476.fits in 0.002 per spec.  Progress: 7290 of 8488 
+INFO: read 46 from spPlate-9153-58022.fits in 0.003 per spec.  Progress: 7336 of 8488 
+INFO: read 15 from spPlate-9173-58069.fits in 0.004 per spec.  Progress: 7351 of 8488 
+INFO: read 3 from spPlate-4288-55501.fits in 0.017 per spec.  Progress: 7354 of 8488 
+INFO: read 99 from spPlate-4209-55478.fits in 0.001 per spec.  Progress: 7453 of 8488 
+INFO: read 1 from spPlate-9213-57712.fits in 0.053 per spec.  Progress: 7454 of 8488 
+INFO: read 46 from spPlate-9154-58013.fits in 0.001 per spec.  Progress: 7500 of 8488 
+INFO: read 29 from spPlate-9174-58070.fits in 0.002 per spec.  Progress: 7529 of 8488 
+INFO: read 2 from spPlate-9204-57712.fits in 0.021 per spec.  Progress: 7531 of 8488 
+INFO: read 1 from spPlate-4360-55539.fits in 0.053 per spec.  Progress: 7532 of 8488 
+INFO: read 1 from spPlate-4286-55499.fits in 0.047 per spec.  Progress: 7533 of 8488 
+INFO: read 69 from spPlate-4210-55444.fits in 0.001 per spec.  Progress: 7602 of 8488 
+INFO: read 32 from spPlate-9155-58043.fits in 0.002 per spec.  Progress: 7634 of 8488 
+INFO: read 29 from spPlate-9175-58049.fits in 0.002 per spec.  Progress: 7663 of 8488 
+INFO: read 2 from spPlate-4359-55533.fits in 0.026 per spec.  Progress: 7665 of 8488 
+INFO: read 99 from spPlate-4211-55446.fits in 0.001 per spec.  Progress: 7764 of 8488 
+INFO: read 3 from spPlate-9202-57713.fits in 0.045 per spec.  Progress: 7767 of 8488 
+INFO: read 32 from spPlate-9156-58039.fits in 0.002 per spec.  Progress: 7799 of 8488 
+INFO: read 4 from spPlate-4284-55863.fits in 0.050 per spec.  Progress: 7803 of 8488 
+INFO: read 23 from spPlate-9176-58080.fits in 0.003 per spec.  Progress: 7826 of 8488 
+INFO: read 3 from spPlate-4358-55833.fits in 0.017 per spec.  Progress: 7829 of 8488 
+INFO: read 82 from spPlate-4212-55447.fits in 0.002 per spec.  Progress: 7911 of 8488 
+INFO: read 5 from spPlate-9201-57724.fits in 0.012 per spec.  Progress: 7916 of 8488 
+INFO: read 73 from spPlate-9157-57742.fits in 0.001 per spec.  Progress: 7989 of 8488 
+INFO: read 75 from spPlate-4213-55449.fits in 0.002 per spec.  Progress: 8064 of 8488 
+INFO: read 1 from spPlate-9210-57656.fits in 0.053 per spec.  Progress: 8065 of 8488 
+INFO: read 23 from spPlate-9177-58044.fits in 0.002 per spec.  Progress: 8088 of 8488 
+INFO: read 2 from spPlate-9209-57686.fits in 0.072 per spec.  Progress: 8090 of 8488 
+INFO: read 53 from spPlate-9158-57664.fits in 0.001 per spec.  Progress: 8143 of 8488 
+INFO: read 73 from spPlate-4214-55451.fits in 0.001 per spec.  Progress: 8216 of 8488 
+INFO: read 2 from spPlate-9200-57716.fits in 0.027 per spec.  Progress: 8218 of 8488 
+INFO: read 15 from spPlate-9178-58081.fits in 0.003 per spec.  Progress: 8233 of 8488 
+INFO: read 2 from spPlate-4280-55503.fits in 0.024 per spec.  Progress: 8235 of 8488 
+INFO: read 3 from spPlate-4356-55829.fits in 0.018 per spec.  Progress: 8238 of 8488 
+INFO: read 4 from spPlate-9199-57684.fits in 0.014 per spec.  Progress: 8242 of 8488 
+INFO: read 12 from spPlate-7849-56980.fits in 0.012 per spec.  Progress: 8254 of 8488 
+INFO: read 59 from spPlate-4215-55471.fits in 0.001 per spec.  Progress: 8313 of 8488 
+INFO: read 13 from spPlate-7851-56932.fits in 0.004 per spec.  Progress: 8326 of 8488 
+INFO: read 18 from spPlate-9159-57666.fits in 0.004 per spec.  Progress: 8344 of 8488 
+INFO: read 2 from spPlate-9208-57688.fits in 0.065 per spec.  Progress: 8346 of 8488 
+INFO: read 3 from spPlate-9198-57713.fits in 0.017 per spec.  Progress: 8349 of 8488 
+INFO: read 1 from spPlate-4355-55533.fits in 0.055 per spec.  Progress: 8350 of 8488 
+INFO: read 1 from spPlate-8768-57336.fits in 0.051 per spec.  Progress: 8351 of 8488 
+INFO: read 3 from spPlate-9179-57682.fits in 0.018 per spec.  Progress: 8354 of 8488 
+determining nside
+nside = 4 -- mean #obj per pixel = 696.1666666666666
+INFO: Adding DLAs
+Reading DLA catalog from: $MY_HACK_DR16/Catalogs/DLA_DR14_v1b.fits
+ In catalog: 34518 DLAs
+ In catalog: 27198 forests have a DLA
+
+
+Remaining sample has 8166 forests
+INFO: time elapsed to read data 1.714111069838206 minutes
+Continuum fitting: starting iteration 0 of 5
+Continuum fitting: ending iteration 0 of 5
+ Mean quantities in observer-frame
+ loglam    eta      var_lss  fudge    chi2     num_pix 
+ 3.561e+00 1.41e+00 6.05e-02 6.48e-05 2.80e+01 6.66e+04 
+ 3.570e+00 1.38e+00 5.69e-02 2.12e-05 8.13e+01 1.04e+05 
+ 3.578e+00 1.37e+00 6.20e-02 1.53e-05 8.17e+01 1.20e+05 
+ 3.587e+00 1.32e+00 6.88e-02 2.24e-05 3.26e+01 1.16e+05 
+ 3.596e+00 1.30e+00 7.54e-02 1.58e-05 7.39e+01 9.68e+04 
+ 3.605e+00 1.27e+00 8.17e-02 3.33e-05 6.60e+01 1.05e+05 
+ 3.614e+00 1.21e+00 9.43e-02 2.97e-14 9.06e+01 9.82e+04 
+ 3.622e+00 1.19e+00 9.76e-02 1.95e-06 7.48e+01 9.05e+04 
+ 3.631e+00 1.20e+00 1.09e-01 7.03e-14 8.47e+01 8.55e+04 
+ 3.640e+00 1.13e+00 1.13e-01 9.13e-11 5.60e+01 6.65e+04 
+ 3.649e+00 1.13e+00 1.12e-01 8.05e-05 1.00e+02 6.09e+04 
+ 3.658e+00 1.12e+00 1.20e-01 8.42e-10 9.33e+01 4.92e+04 
+ 3.666e+00 1.16e+00 1.22e-01 1.73e-04 4.18e+01 3.62e+04 
+ 3.675e+00 1.21e+00 1.38e-01 5.48e-04 4.05e+01 2.57e+04 
+ 3.684e+00 1.00e+00 1.00e-01 1.00e-07 0.00e+00 1.70e+04 
+ 3.693e+00 1.00e+00 1.00e-01 1.00e-07 0.00e+00 8.14e+03 
+ 3.702e+00 1.00e+00 1.00e-01 1.00e-07 0.00e+00 1.16e+03 
+ 3.710e+00 1.00e+00 1.00e-01 1.00e-07 0.00e+00 0.00e+00 
+ 3.719e+00 1.00e+00 1.00e-01 1.00e-07 0.00e+00 0.00e+00 
+ 3.728e+00 1.00e+00 1.00e-01 1.00e-07 0.00e+00 0.00e+00 
+Continuum fitting: starting iteration 1 of 5
+Continuum fitting: ending iteration 1 of 5
+ Mean quantities in observer-frame
+ loglam    eta      var_lss  fudge    chi2     num_pix 
+ 3.561e+00 1.41e+00 3.88e-02 7.97e-05 3.88e+01 7.08e+04 
+ 3.570e+00 1.38e+00 4.02e-02 2.43e-05 5.82e+01 1.05e+05 
+ 3.578e+00 1.38e+00 4.25e-02 4.42e-05 6.02e+01 1.21e+05 
+ 3.587e+00 1.35e+00 4.46e-02 4.03e-05 6.95e+01 1.17e+05 
+ 3.596e+00 1.32e+00 4.91e-02 2.57e-05 4.42e+01 9.71e+04 
+ 3.605e+00 1.28e+00 5.30e-02 3.54e-05 8.02e+01 1.05e+05 
+ 3.614e+00 1.23e+00 6.12e-02 1.80e-05 8.35e+01 9.79e+04 
+ 3.622e+00 1.20e+00 6.41e-02 2.50e-05 6.09e+01 9.04e+04 
+ 3.631e+00 1.22e+00 7.35e-02 9.93e-06 9.43e+01 8.53e+04 
+ 3.640e+00 1.16e+00 7.48e-02 2.83e-05 8.12e+01 6.64e+04 
+ 3.649e+00 1.14e+00 8.01e-02 6.89e-05 6.78e+01 6.07e+04 
+ 3.658e+00 1.14e+00 8.15e-02 8.16e-05 9.96e+01 4.91e+04 
+ 3.666e+00 1.07e+00 9.67e-02 3.99e-05 8.62e+01 3.61e+04 
+ 3.675e+00 1.15e+00 9.10e-02 3.74e-04 3.62e+01 2.57e+04 
+ 3.684e+00 1.10e+00 1.13e-01 5.68e-10 7.31e+00 1.70e+04 
+ 3.693e+00 1.00e+00 1.00e-01 1.00e-07 0.00e+00 8.16e+03 
+ 3.702e+00 1.00e+00 1.00e-01 1.00e-07 0.00e+00 1.18e+03 
+ 3.710e+00 1.00e+00 1.00e-01 1.00e-07 0.00e+00 0.00e+00 
+ 3.719e+00 1.00e+00 1.00e-01 1.00e-07 0.00e+00 0.00e+00 
+ 3.728e+00 1.00e+00 1.00e-01 1.00e-07 0.00e+00 0.00e+00 
+Continuum fitting: starting iteration 2 of 5
+Continuum fitting: ending iteration 2 of 5
+ Mean quantities in observer-frame
+ loglam    eta      var_lss  fudge    chi2     num_pix 
+ 3.561e+00 1.41e+00 3.82e-02 2.27e-05 5.13e+01 7.16e+04 
+ 3.570e+00 1.38e+00 3.93e-02 1.72e-05 5.97e+01 1.05e+05 
+ 3.578e+00 1.38e+00 4.12e-02 4.24e-05 5.30e+01 1.21e+05 
+ 3.587e+00 1.35e+00 4.31e-02 3.62e-05 7.04e+01 1.17e+05 
+ 3.596e+00 1.33e+00 4.75e-02 2.07e-05 4.68e+01 9.72e+04 
+ 3.605e+00 1.29e+00 5.05e-02 3.06e-05 1.05e+02 1.05e+05 
+ 3.614e+00 1.24e+00 5.81e-02 1.23e-05 8.41e+01 9.79e+04 
+ 3.622e+00 1.21e+00 6.08e-02 1.58e-05 7.43e+01 9.03e+04 
+ 3.631e+00 1.23e+00 6.90e-02 8.39e-06 7.95e+01 8.54e+04 
+ 3.640e+00 1.18e+00 6.92e-02 2.86e-05 9.19e+01 6.64e+04 
+ 3.649e+00 1.15e+00 7.66e-02 4.43e-05 7.62e+01 6.07e+04 
+ 3.658e+00 1.15e+00 7.74e-02 5.07e-05 1.28e+02 4.91e+04 
+ 3.666e+00 1.09e+00 9.09e-02 2.99e-05 8.74e+01 3.60e+04 
+ 3.675e+00 1.18e+00 8.44e-02 2.86e-04 4.02e+01 2.57e+04 
+ 3.684e+00 1.01e+00 1.14e-01 3.06e-13 1.20e+01 1.70e+04 
+ 3.693e+00 1.00e+00 1.00e-01 1.00e-07 0.00e+00 8.17e+03 
+ 3.702e+00 1.00e+00 1.00e-01 1.00e-07 0.00e+00 1.18e+03 
+ 3.710e+00 1.00e+00 1.00e-01 1.00e-07 0.00e+00 0.00e+00 
+ 3.719e+00 1.00e+00 1.00e-01 1.00e-07 0.00e+00 0.00e+00 
+ 3.728e+00 1.00e+00 1.00e-01 1.00e-07 0.00e+00 0.00e+00 
+Continuum fitting: starting iteration 3 of 5
+Continuum fitting: ending iteration 3 of 5
+ Mean quantities in observer-frame
+ loglam    eta      var_lss  fudge    chi2     num_pix 
+ 3.561e+00 1.41e+00 3.82e-02 1.04e-05 6.14e+01 7.18e+04 
+ 3.570e+00 1.38e+00 3.95e-02 1.46e-05 6.17e+01 1.06e+05 
+ 3.578e+00 1.38e+00 4.11e-02 4.29e-05 5.76e+01 1.21e+05 
+ 3.587e+00 1.35e+00 4.32e-02 3.45e-05 7.45e+01 1.17e+05 
+ 3.596e+00 1.33e+00 4.75e-02 1.92e-05 3.95e+01 9.72e+04 
+ 3.605e+00 1.29e+00 5.05e-02 2.84e-05 9.67e+01 1.05e+05 
+ 3.614e+00 1.24e+00 5.80e-02 9.95e-06 7.58e+01 9.79e+04 
+ 3.622e+00 1.22e+00 6.03e-02 1.60e-05 7.13e+01 9.03e+04 
+ 3.631e+00 1.23e+00 6.85e-02 6.74e-06 7.84e+01 8.53e+04 
+ 3.640e+00 1.18e+00 6.86e-02 2.51e-05 9.32e+01 6.64e+04 
+ 3.649e+00 1.15e+00 7.61e-02 4.15e-05 7.71e+01 6.07e+04 
+ 3.658e+00 1.16e+00 7.65e-02 4.32e-05 1.28e+02 4.91e+04 
+ 3.666e+00 1.10e+00 8.96e-02 3.37e-05 8.53e+01 3.60e+04 
+ 3.675e+00 1.19e+00 8.42e-02 2.58e-04 3.30e+01 2.57e+04 
+ 3.684e+00 1.05e+00 1.12e-01 1.83e-14 1.09e+01 1.70e+04 
+ 3.693e+00 1.00e+00 1.00e-01 1.00e-07 0.00e+00 8.17e+03 
+ 3.702e+00 1.00e+00 1.00e-01 1.00e-07 0.00e+00 1.18e+03 
+ 3.710e+00 1.00e+00 1.00e-01 1.00e-07 0.00e+00 0.00e+00 
+ 3.719e+00 1.00e+00 1.00e-01 1.00e-07 0.00e+00 0.00e+00 
+ 3.728e+00 1.00e+00 1.00e-01 1.00e-07 0.00e+00 0.00e+00 
+Continuum fitting: starting iteration 4 of 5
+Continuum fitting: ending iteration 4 of 5
+INFO: time elapsed to fit continuum 0.6005416552225749 minutes
+INFO: time elapsed to write deltas 0.08017499844233195 minutes
+INFO: total elapsed time 2.394827723503113 minutes
